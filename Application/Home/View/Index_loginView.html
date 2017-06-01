@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>欢迎登录后台管理系统</title>
+    <link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <!--<script language="JavaScript" src="/Public/Admin/js/jquery.js"></script>-->
+    <script language="JavaScript" src="/Public/Admin/js/jquery-3.2.1.min.js"></script>
+    <script src="/Public/Admin/js/cloud.js" type="text/javascript"></script>
+
+    <script src="/Public/Admin/js/layer/layer.js" type="text/javascript"></script>
+
+    <script language="javascript">
+        $(function(){
+            $('.loginbox').css({'position':'absolute','left':($(window).width()-692)/2});
+            $(window).resize(function(){
+                $('.loginbox').css({'position':'absolute','left':($(window).width()-692)/2});
+            })
+        });
+    </script>
+
+
+</head>
+
+<body style="background-color:#1c77ac; background-image:url(/Public/Admin/images/light.png); background-repeat:no-repeat; background-position:center top; overflow:hidden;">
+
+
+
+<div id="mainBody">
+    <div id="cloud1" class="cloud"></div>
+    <div id="cloud2" class="cloud"></div>
+</div>
+
+
+<div class="logintop">
+    <span>欢迎登录后台管理界面平台</span>
+    <ul>
+        <li><a href="#">回首页</a></li>
+        <li><a href="#">帮助</a></li>
+        <li><a href="#">关于</a></li>
+    </ul>
+</div>
+
+<div class="loginbody">
+
+    <span class="systemlogo"></span>
+
+    <div class="loginbox">
+        <ul>
+            <li><input name="admin_name" type="text" class="loginuser" value="" /></li>
+            <li><input name="admin_pwd" type="password" class="loginpwd" value="" /></li>
+            <li><input name="sub" type="button" class="loginbtn" value="登录" onclick="sub();"/></li>
+        </ul>
+    </div>
+
+</div>
+
+<script type="text/javascript">
+    /**
+     * 验证提交表单
+     */
+    function sub(){
+        var admin_name = $('.loginuser').val();
+        var admin_pwd = $('.loginpwd').val();
+        if(admin_name == ''){
+            layer.tips('用户名不能为空', '.loginuser');
+        }else if(admin_pwd == ''){
+            layer.tips('密码不能为空', '.loginpwd');
+        }else{
+            $.ajax({
+                //提交数据的类型 POST GET
+                type:"POST",
+                //提交的网址
+                url:"/Home/Index/login",
+                //提交的数据
+                data:{admin_name:admin_name,admin_pwd:admin_pwd},
+                //返回数据的格式
+                datatype: "json",//"xml", "html", "script", "json", "jsonp", "text".
+                //在请求之前调用的函数
+//            beforeSend:function(){$("#msg").html("logining");},
+                //成功返回之后调用的函数
+                success:function(data){
+                    if(data.code == 200){
+                        //alert(data.code)
+                        location.href = '/Home/Index/index';
+                    }else{
+                        layer.alert(data.msg);
+                    }
+                }   ,
+                //调用执行后调用的函数
+//            complete: function(XMLHttpRequest, textStatus){
+//                alert(XMLHttpRequest.responseText);
+//                alert(textStatus);
+//                //HideLoading();
+//            },
+                //调用出错执行的函数
+                error: function(){
+                    //请求出错处理
+                    alert('系统繁忙，请稍后再试')
+                }
+            });
+        }
+    }
+</script>
+</body>
+
+</html>

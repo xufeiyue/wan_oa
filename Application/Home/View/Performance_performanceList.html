@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/layer/layer.js"></script>
+    <script type="text/javascript">
+        function add() {
+            layer.open({
+                type: 2,
+                area: ['800px', '600px'],
+                fixed: false, //不固定
+                maxmin: true,
+                content: '/Home/Performance/addPerformance'
+            });
+        }
+        function edit(id) {
+            var id = id
+            layer.open({
+                type: 2,
+                area: ['700px', '530px'],
+                fixed: false, //不固定
+                maxmin: true,
+                content: '/Home/Performance/editPerformanceInfo?id='+id
+            });
+        }
+        function del(id) {
+            var id = id
+            layer.msg('你确定要删除这条业绩？', {
+                time: 0 //不自动关闭
+                ,btn: ['是', '否']
+                ,yes: function(index){
+                    $.ajax({
+                        //提交数据的类型 POST GET
+                        type:"POST",
+                        //提交的网址
+                        url:"/index.php/Home/Performance/delPerformance",
+                        //提交的数据
+                        data:{id:id},
+                        //返回数据的格式
+                        datatype: "json",//"xml", "html", "script", "json", "jsonp", "text".
+                        //在请求之前调用的函数
+//            beforeSend:function(){$("#msg").html("logining");},
+                        //成功返回之后调用的函数
+                        success:function(data){
+                            if(data.code == 200){
+                                location.reload();
+                            }else{
+                                layer.alert(data.msg);
+                            }
+                        },
+                        //调用执行后调用的函数
+//            complete: function(XMLHttpRequest, textStatus){
+//                alert(XMLHttpRequest.responseText);
+//                alert(textStatus);
+//                //HideLoading();
+//            },
+                        //调用出错执行的函数
+                        error: function(){
+                            //请求出错处理
+                            alert('系统繁忙，请稍后再试')
+                        }
+                    });
+                }
+            });
+        }
+
+        function search(){
+            var truename = $("#truename").val();
+            var department_id = $("#department_id").val();
+            var begin_time = $("#begin_time").val();
+            var end_time = $("#end_time").val();
+            $.ajax({
+                //提交数据的类型 POST GET
+                type:"POST",
+                //提交的网址
+                url:"/Home/Performance/performanceList",
+                //提交的数据
+                data:{truename:truename,department_id:department_id,begin_time:begin_time,end_time:end_time},
+                //返回数据的格式
+                datatype: "json",//"xml", "html", "script", "json", "jsonp", "text".
+                //在请求之前调用的函数
+//            beforeSend:function(){$("#msg").html("logining");},
+                //成功返回之后调用的函数
+                success:function(data){
+                    location.reload();
+                }   ,
+                //调用执行后调用的函数
+//            complete: function(XMLHttpRequest, textStatus){
+//                alert(XMLHttpRequest.responseText);
+//                alert(textStatus);
+//                //HideLoading();
+//            },
+                //调用出错执行的函数
+                error: function(){
+                    //请求出错处理
+                    alert('系统繁忙，请稍后再试')
+                }
+            });
+        }
+
+    </script>
+    <script type="text/javascript" src="/Public/Admin/js/jeDate/jedate.js"></script>
+</head>
+
+
+<body>
+
+<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">数据表</a></li>
+        <li><a href="#">基本内容</a></li>
+    </ul>
+</div>
+
+<div class="rightinfo">
+
+    <div class="tools">
+        <form action="#" name="form1" method="post">
+            <ul class="toolbar">
+                <li onclick="add();"><span><img src="/Public/Admin/images/t01.png" /></span>添加</li>&nbsp;&nbsp;
+                选择部门：<select name="department_id"   style="border:solid 1px;" id="department_id">
+                <option value="0">请选择部门</option>
+                <volist name="department_list" id="vo">
+                    <option value="<{$vo['id']}>"><{$vo['department']}></option>
+                </volist>
+            </select>&nbsp;&nbsp;
+                员工姓名：<input type="text" name="truename" id="truename"style="border:solid 1px;">&nbsp;&nbsp;
+                开始时间：<input type="text" name="begin_time" id="begin_time" style="border:solid 1px;"onclick="jeDate({dateCell:'#begin_time',isTime:true,format:'YYYY-MM-DD'})"/>&nbsp;&nbsp;
+                结束时间：<input type="text" name="end_time" id="end_time" style="border:solid 1px;"onclick="jeDate({dateCell:'#end_time',isTime:true,format:'YYYY-MM-DD'})"/>&nbsp;&nbsp;
+                <input name="sub" type="submit" class="btn" value="搜索" />
+            </ul>
+        </form>
+
+    </div>
+
+
+    <table class="tablelist">
+        <thead>
+        <tr>
+            <th>姓名</th>
+            <th>部门名称</th>
+            <th>业绩</th>
+            <th>时间</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <volist name="list" id="vo">
+            <tr>
+                <td><{$vo['truename']}></td>
+                <td><{$vo['department']}></td>
+                <td><{$vo['performance']}></td>
+                <td><{$vo['add_time']}></td>
+                <td><a href="javascript:edit(<{$vo['id']}>)" class="tablelink">修改</a>     <a href="javascript:del(<{$vo['id']}>)" class="tablelink" > 删除</a></td>
+            </tr>
+        </volist>
+        </tbody>
+    </table>
+    <div class="pagin">
+        <{$page}>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('.tablelist tbody tr:odd').addClass('odd');
+</script>
+
+</body>
+
+</html>
