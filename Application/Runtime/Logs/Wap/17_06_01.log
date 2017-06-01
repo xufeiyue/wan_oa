@@ -497,3 +497,197 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
 
+[ 2017-06-01T21:24:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-06-01T21:24:07+08:00 ] 127.0.0.1 /index.php/Wap/Index/loginView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-06-01T21:24:09+08:00 ] 127.0.0.1 /Wap/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: select * from `qp_member` where `username`  = 'admin' and `pwd` = '21232f297a57a5a743894a0e4a801fc3' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\oa\Application\Home\Model\AdminModel.class.php 第 50 行.
+
+[ 2017-06-01T21:24:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-06-01T21:24:24+08:00 ] 127.0.0.1 /index.php/Wap/Index/loginView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-06-01T21:24:28+08:00 ] 127.0.0.1 /Wap/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: select * from `qp_member` where `username`  = 'qwe123' and `pwd` = '46f94c8de14fb36680850768ff1b7f2a' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\oa\Application\Home\Model\AdminModel.class.php 第 50 行.
+
+[ 2017-06-01T21:24:31+08:00 ] 127.0.0.1 /Wap/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: select * from `qp_member` where `username`  = 'qwe123' and `pwd` = '200820e3227815ed1756a6b531e7e0d2' [ RunTime:0.0002s ]
+
+[ 2017-06-01T21:24:31+08:00 ] 127.0.0.1 /Wap/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-06-01T21:24:31+08:00 ] 127.0.0.1 /index.php/Wap/Index/mainView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-06-01T21:24:37+08:00 ] 127.0.0.1 /index.php/Wap/Index/mainView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-06-01T21:24:39+08:00 ] 127.0.0.1 /index.php/Wap/Performance/monthPerformanceList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: select a.performance,d.department from `qp_department` as d LEFT JOIN 
+(select SUM(`performance`) as performance,department_id from qp_performance where DATE_FORMAT(add_time, '%Y%m') = DATE_FORMAT(CURDATE(), '%Y%m')
+GROUP BY department_id) as a on d.id = a.department_id order by a.performance desc [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: i_month E:\phpStudy\WWW\oa\Application\Wap\Controller\PerformanceController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: i_month E:\phpStudy\WWW\oa\Application\Wap\Controller\PerformanceController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: i_month E:\phpStudy\WWW\oa\Application\Wap\Controller\PerformanceController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: i_month E:\phpStudy\WWW\oa\Application\Wap\Controller\PerformanceController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: i_month E:\phpStudy\WWW\oa\Application\Wap\Controller\PerformanceController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: i_month E:\phpStudy\WWW\oa\Application\Wap\Controller\PerformanceController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: i_month E:\phpStudy\WWW\oa\Application\Wap\Controller\PerformanceController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: i_month E:\phpStudy\WWW\oa\Application\Wap\Controller\PerformanceController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: i_month E:\phpStudy\WWW\oa\Application\Wap\Controller\PerformanceController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: i_month E:\phpStudy\WWW\oa\Application\Wap\Controller\PerformanceController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: i_month E:\phpStudy\WWW\oa\Application\Wap\Controller\PerformanceController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: i_month E:\phpStudy\WWW\oa\Application\Wap\Controller\PerformanceController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: i_month E:\phpStudy\WWW\oa\Application\Wap\Controller\PerformanceController.class.php 第 187 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: type E:\phpStudy\WWW\oa\Application\Runtime\Cache\Wap\fe233b39051fb871b14dd5d29cc2f1f9.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-06-01T21:24:43+08:00 ] 127.0.0.1 /index.php/Wap/Performance/monthPerformanceList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: select a.performance,d.department from `qp_department` as d LEFT JOIN 
+(select SUM(`performance`) as performance,department_id from qp_performance where add_time > '2016-08-01' and add_time < '2016-08-31'
+GROUP BY department_id) as a on d.id = a.department_id order by a.performance desc [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: type E:\phpStudy\WWW\oa\Application\Runtime\Cache\Wap\fe233b39051fb871b14dd5d29cc2f1f9.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+

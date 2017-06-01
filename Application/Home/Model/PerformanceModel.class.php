@@ -31,10 +31,12 @@ class PerformanceModel extends Model
      * @return mixed
      */
     public function getPerformanceList($where,$order){
-        $sql = "select p.*,e.truename,d.department,pc.product_name,t.type_name from `qp_performance` as p LEFT JOIN `qp_employee` as e on p.employee_id = e.id LEFT JOIN 
-`qp_department` as d on p.department_id = d.id LEFT JOIN `qp_product_type` as t on p.product_type_id = t.id LEFT JOIN `qp_product` as pc on p.product_id = pc.id $where order by p.id desc";
+        $sql = "select p.*,e.truename,d.department,pc.product_name,t.type_name from `qp_performance` as p 
+LEFT JOIN `qp_employee` as e on p.employee_id = e.id LEFT JOIN 
+`qp_department` as d on p.department_id = d.id LEFT JOIN `qp_product_type` as t on p.product_type_id = t.id 
+LEFT JOIN `qp_product` as pc on p.product_id = pc.id where 1 $where order by p.id desc";
+        //echo $sql;exit;
         return $this->query($sql);
-        M('Performance as p')->join('left join qp_employee as e on p.employee_id = e.id')->where()->order()->select();
     }
 
     /**
@@ -67,5 +69,15 @@ class PerformanceModel extends Model
     public function delPerformance($where){
         $sql = "delete from `qp_performance` where $where";
         return $this->execute($sql);
+    }
+
+    /**
+     * 获取部门业绩列表
+     * @return mixed
+     */
+    public function getDepartmentPerformance($where=1,$where1=1){
+        $sql = "select IFNULL(a.performance,0) as performance,d.department,d.id as department_id from (select sum(performance) as performance,department_id 
+from `qp_performance` where $where group by department_id ) as a RIGHT JOIN `qp_department` as d on a.department_id = d.id where $where1";
+        return $this->query($sql);
     }
 }
