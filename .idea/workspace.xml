@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9d7151f-f09c-4140-b11c-25dd997b1b79" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/View/Performance_departmentPerformance.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" afterPath="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Index_leftView.html" afterPath="$PROJECT_DIR$/Application/Home/View/Index_leftView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html" afterPath="$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/03143653435372f5e2eb02edcca2ca64.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/03143653435372f5e2eb02edcca2ca64.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/26d726e6c69c7474a6724c62207348dc.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/26d726e6c69c7474a6724c62207348dc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Common/17_06_01.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Common/17_06_01.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/17_06_01.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/17_06_01.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Wap/17_06_01.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Wap/17_06_01.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,44 +66,9 @@
       <file leaf-file-name="PerformanceController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="46" column="58" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="58" />
+            <state relative-caret-position="178">
+              <caret line="47" column="67" lean-forward="true" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Index_leftView.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index_leftView.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="46" column="116" lean-forward="true" selection-start-line="46" selection-start-column="116" selection-end-line="46" selection-end-column="116" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductTypeModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/Model/ProductTypeModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="73" column="34" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="34" />
-              <folding>
-                <marker date="1496312290824" expanded="true" signature="360:399" ph="select * fro... qp_product_type" />
-                <marker date="1496312290824" expanded="true" signature="598:649" ph="insert into `qp_product_type`... " />
-                <marker date="1496312290824" expanded="true" signature="883:947" ph="update `qp_p... " />
-                <marker date="1496312290824" expanded="true" signature="1147:1179" ph="select * fro... qp_product_type" />
-                <marker date="1496312290824" expanded="true" signature="1395:1450" ph="update `qp_p... " />
-                <marker date="1496312290824" expanded="true" signature="1703:1809" ph="select p.*,t... qp_product" />
-                <marker date="1496312290824" expanded="true" signature="2000:2066" ph="insert into `qp_product`... " />
-                <marker date="1496312290824" expanded="true" signature="2250:2348" ph="select p.*,t... qp_product" />
-                <marker date="1496312290824" expanded="true" signature="2600:2641" ph="update `qp_p... " />
-                <marker date="1496312290824" expanded="true" signature="2824:2874" ph="update `qp_p... " />
-                <marker date="1496312290824" expanded="true" signature="3085:3157" ph="select * fro... qp_product" />
-                <marker date="1496312290824" expanded="true" signature="3350:3392" ph="select * fro... qp_product" />
-                <marker date="1496312290824" expanded="true" signature="3350:3393" ph="select * fro... qp_product" />
-                <marker date="1496312290824" expanded="true" signature="3350:3415" ph="select * fro... qp_product" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -101,29 +76,20 @@
       <file leaf-file-name="Performance_performanceList.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="136" column="95" lean-forward="true" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="95" />
+            <state relative-caret-position="351">
+              <caret line="229" column="54" lean-forward="false" selection-start-line="229" selection-start-column="46" selection-end-line="229" selection-end-column="54" />
               <folding>
-                <element signature="e#5049#5055#0" expanded="true" />
-                <element signature="e#5055#5061#0" expanded="true" />
-                <element signature="e#5157#5163#0" expanded="true" />
-                <element signature="e#5163#5169#0" expanded="true" />
-                <element signature="e#5265#5271#0" expanded="true" />
-                <element signature="e#5271#5277#0" expanded="true" />
-                <element signature="e#5475#5481#0" expanded="true" />
-                <element signature="e#5481#5487#0" expanded="true" />
-                <element signature="e#5583#5589#0" expanded="true" />
-                <element signature="e#5589#5595#0" expanded="true" />
+                <element signature="e#8068#8074#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Performance_editPerformanceInfo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html">
+      <file leaf-file-name="Performance_departmentPerformance.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_departmentPerformance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="48" column="62" lean-forward="false" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+            <state relative-caret-position="243">
+              <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="83" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -132,14 +98,18 @@
       <file leaf-file-name="PerformanceModel.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="36" column="91" lean-forward="false" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
+            <state relative-caret-position="359">
+              <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
               <folding>
-                <marker date="1496314490870" expanded="true" signature="321:529" ph="insert into `qp_performance`... " />
-                <marker date="1496314490870" expanded="true" signature="763:1103" ph="select p.*,e... qp_performance" />
-                <marker date="1496314490870" expanded="true" signature="1403:1441" ph="select p.* f... qp_performance" />
-                <marker date="1496314490870" expanded="true" signature="1711:1746" ph="update `qp_p... " />
-                <marker date="1496314490870" expanded="true" signature="1945:1980" ph="delete from " />
+                <marker date="1496348080361" expanded="true" signature="321:529" ph="insert into `qp_performance`... " />
+                <marker date="1496348080361" expanded="true" signature="763:1113" ph="select p.*,e... qp_performance" />
+                <marker date="1496348080361" expanded="true" signature="1320:1358" ph="select p.* f... qp_performance" />
+                <marker date="1496348080361" expanded="true" signature="1628:1663" ph="update `qp_p... " />
+                <marker date="1496348080361" expanded="true" signature="1862:1897" ph="delete from " />
+                <marker date="1496348080361" expanded="true" signature="2085:2143" ph="select IFNUL... sum" />
+                <marker date="1496348080361" expanded="true" signature="2085:2354" ph="select IFNUL... sum" />
+                <marker date="1496348080361" expanded="true" signature="2085:2355" ph="select IFNUL... sum" />
+                <marker date="1496348080361" expanded="true" signature="2172:2283" ph="select sum(p... qp_performance" />
               </folding>
             </state>
           </provider>
@@ -175,8 +145,11 @@
       <find>addPerformance</find>
       <find>product_id</find>
       <find>getPerformanceInfo</find>
-      <find>getPerformanceList</find>
       <find>product_list</find>
+      <find>getProductList</find>
+      <find>getDepartmentPerformance</find>
+      <find>getPerformanceList</find>
+      <find>editPerformanceInfo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Application/Home/View/Index_index.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index_left.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index_right.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index_topView.html" />
@@ -225,7 +197,6 @@
         <option value="$PROJECT_DIR$/Application/Home/View/Product_addProduct.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Product_editProduct.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Product_productList.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index_leftView.html" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/ProductController.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/View/Performance_addPerformance.html" />
         <option value="$PROJECT_DIR$/Application/Home/Model/EmployeeModel.class.php" />
@@ -233,6 +204,8 @@
         <option value="$PROJECT_DIR$/ThinkPHP/Conf/convention.php" />
         <option value="$PROJECT_DIR$/Application/Home/Model/ProductTypeModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index_leftView.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Performance_departmentPerformance.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" />
@@ -248,7 +221,8 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1932" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -283,6 +257,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -349,10 +324,31 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,7 +356,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -480,11 +476,13 @@
       <workItem from="1496294574215" duration="1033000" />
       <workItem from="1496296808565" duration="12223000" />
       <workItem from="1496312554445" duration="1935000" />
+      <workItem from="1496323422712" duration="383000" />
+      <workItem from="1496323820156" duration="9351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116963000" />
+    <option name="totallyTimeSpent" value="126697000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -496,17 +494,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24839744" sideWeight="0.496208" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25053304" sideWeight="0.496208" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09850905" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26789588" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17963752" sideWeight="0.503792" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -530,13 +528,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/352d11fc/3a5c3571-a4a6-4564-a43c-99976d8ec2c6/oa.qp_admin" />
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Model.class.php" />
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Index_mainView.html">
@@ -655,13 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <marker date="1495205342000" expanded="true" signature="361:414" ph="select `id`,... qp_department" />
-            <marker date="1495205342000" expanded="true" signature="665:730" ph="insert into `qp_department`... " />
-            <marker date="1495205342000" expanded="true" signature="965:1001" ph="select * fro... qp_department" />
-            <marker date="1495205342000" expanded="true" signature="1293:1332" ph="update `qp_d... " />
-            <marker date="1495205342000" expanded="true" signature="1610:1644" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Product_productList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1593">
-          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Product_addProduct.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="695">
@@ -732,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,26 +719,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_addPerformance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="96" column="43" lean-forward="false" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Model/EmployeeModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="72" column="42" lean-forward="false" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
-          <folding>
-            <marker date="1496305222788" expanded="true" signature="317:388" ph="insert into `qp_employee`... " />
-            <marker date="1496305222788" expanded="true" signature="615:728" ph="select d.dep... qp_employee" />
-            <marker date="1496305222788" expanded="true" signature="924:958" ph="select * fro... qp_employee" />
-            <marker date="1496305222788" expanded="true" signature="1201:1233" ph="update `qp_e... " />
-            <marker date="1496305222788" expanded="true" signature="1435:1467" ph="delete from " />
-            <marker date="1496305222788" expanded="true" signature="1672:1723" ph="select * fro... qp_employe" />
-            <marker date="1496305222788" expanded="true" signature="1672:1724" ph="select * fro... qp_employe" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,86 +772,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
           <caret line="172" column="38" lean-forward="false" selection-start-line="172" selection-start-column="20" selection-end-line="172" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index_leftView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="47" column="125" lean-forward="true" selection-start-line="47" selection-start-column="125" selection-end-line="47" selection-end-column="125" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Model/ProductTypeModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="73" column="34" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="34" />
-          <folding>
-            <marker date="1496312290824" expanded="true" signature="360:399" ph="select * fro... qp_product_type" />
-            <marker date="1496312290824" expanded="true" signature="598:649" ph="insert into `qp_product_type`... " />
-            <marker date="1496312290824" expanded="true" signature="883:947" ph="update `qp_p... " />
-            <marker date="1496312290824" expanded="true" signature="1147:1179" ph="select * fro... qp_product_type" />
-            <marker date="1496312290824" expanded="true" signature="1395:1450" ph="update `qp_p... " />
-            <marker date="1496312290824" expanded="true" signature="1703:1809" ph="select p.*,t... qp_product" />
-            <marker date="1496312290824" expanded="true" signature="2000:2066" ph="insert into `qp_product`... " />
-            <marker date="1496312290824" expanded="true" signature="2250:2348" ph="select p.*,t... qp_product" />
-            <marker date="1496312290824" expanded="true" signature="2600:2641" ph="update `qp_p... " />
-            <marker date="1496312290824" expanded="true" signature="2824:2874" ph="update `qp_p... " />
-            <marker date="1496312290824" expanded="true" signature="3085:3157" ph="select * fro... qp_product" />
-            <marker date="1496312290824" expanded="true" signature="3350:3392" ph="select * fro... qp_product" />
-            <marker date="1496312290824" expanded="true" signature="3350:3393" ph="select * fro... qp_product" />
-            <marker date="1496312290824" expanded="true" signature="3350:3415" ph="select * fro... qp_product" />
-          </folding>
+        <state relative-caret-position="92">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Product_productList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3051">
+          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_addPerformance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="178" column="17" lean-forward="false" selection-start-line="176" selection-start-column="33" selection-end-line="178" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="48" column="62" lean-forward="false" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index_leftView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="46" column="116" lean-forward="true" selection-start-line="46" selection-start-column="116" selection-end-line="46" selection-end-column="116" />
-          <folding />
+        <state relative-caret-position="162">
+          <caret line="48" column="62" lean-forward="false" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="62" />
+          <folding>
+            <marker date="1496322695168" expanded="true" signature="583:601" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="136" column="95" lean-forward="true" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="95" />
+        <state relative-caret-position="351">
+          <caret line="229" column="54" lean-forward="false" selection-start-line="229" selection-start-column="46" selection-end-line="229" selection-end-column="54" />
           <folding>
-            <element signature="e#5049#5055#0" expanded="true" />
-            <element signature="e#5055#5061#0" expanded="true" />
-            <element signature="e#5157#5163#0" expanded="true" />
-            <element signature="e#5163#5169#0" expanded="true" />
-            <element signature="e#5265#5271#0" expanded="true" />
-            <element signature="e#5271#5277#0" expanded="true" />
-            <element signature="e#5475#5481#0" expanded="true" />
-            <element signature="e#5481#5487#0" expanded="true" />
-            <element signature="e#5583#5589#0" expanded="true" />
-            <element signature="e#5589#5595#0" expanded="true" />
+            <element signature="e#8068#8074#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_departmentPerformance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="83" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="46" column="58" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="58" />
+        <state relative-caret-position="178">
+          <caret line="47" column="67" lean-forward="true" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="36" column="91" lean-forward="false" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
+        <state relative-caret-position="359">
+          <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
           <folding>
-            <marker date="1496314490870" expanded="true" signature="321:529" ph="insert into `qp_performance`... " />
-            <marker date="1496314490870" expanded="true" signature="763:1103" ph="select p.*,e... qp_performance" />
-            <marker date="1496314490870" expanded="true" signature="1403:1441" ph="select p.* f... qp_performance" />
-            <marker date="1496314490870" expanded="true" signature="1711:1746" ph="update `qp_p... " />
-            <marker date="1496314490870" expanded="true" signature="1945:1980" ph="delete from " />
+            <marker date="1496348080361" expanded="true" signature="321:529" ph="insert into `qp_performance`... " />
+            <marker date="1496348080361" expanded="true" signature="763:1113" ph="select p.*,e... qp_performance" />
+            <marker date="1496348080361" expanded="true" signature="1320:1358" ph="select p.* f... qp_performance" />
+            <marker date="1496348080361" expanded="true" signature="1628:1663" ph="update `qp_p... " />
+            <marker date="1496348080361" expanded="true" signature="1862:1897" ph="delete from " />
+            <marker date="1496348080361" expanded="true" signature="2085:2143" ph="select IFNUL... sum" />
+            <marker date="1496348080361" expanded="true" signature="2085:2354" ph="select IFNUL... sum" />
+            <marker date="1496348080361" expanded="true" signature="2085:2355" ph="select IFNUL... sum" />
+            <marker date="1496348080361" expanded="true" signature="2172:2283" ph="select sum(p... qp_performance" />
           </folding>
         </state>
       </provider>

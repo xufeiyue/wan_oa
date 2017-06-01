@@ -23,27 +23,36 @@ class performanceController extends BaseController
      */
     public function performanceList(){
         $department_id = I("post.department_id");
-        $truename = I("post.truename");
-        $begin_time = I("post.begin_time");
-        $end_time = I("post.end_time");
+        $employee_id = I("post.employee_id");
         $compact_no = I("post.compact_no");
-        $compact_time = I("post.compact_time");
         $client_name = I("post.client_name");
         $client_truename = I("post.client_truename");
         $product_type_id = I("post.product_type_id");
         $product_id = I("post.product_id");
-        $where = '';
-        if($truename !=""){
-            $where.= " where e.truename like '%$truename%'";
+        $begin_time = I("post.begin_time");
+        $end_time = I("post.end_time");
+        $where = "";
+        if($employee_id !=0){
+            $where.=" and p.employee_id = $employee_id";
         }
-        if($department_id !=0 && $truename == ''){
-            $where.= " where e.department_id = $department_id";
-        }elseif ($department_id !=0 && $truename !=''){
-            $where.=" and e.department_id = $department_id";
-        }elseif($begin_time !=="" && $end_time !=""){
-            $where.= " ";
+        if($compact_no != ''){
+            $where.= " and p.compact_no = '$compact_no'";
         }
-
+        if($client_name != ''){
+            $where.= " and p.client_name like '%$client_name%'";
+        }
+        if($client_truename != ''){
+            $where.= " and p.client_truename like '%$client_truename%'";
+        }
+        if($product_type_id != 0){
+            $where.= " and p.product_type_id = '$product_type_id'";
+        }
+        if($product_id != 0){
+            $where.= " and p.product_id = '$product_id'";
+        }
+        if($begin_time!="" && $end_time!=""){
+            $where.= " and p.add_time >'$begin_time' and p.add_time<'$end_time'";
+        }
         $res = $this->performanceModel->getPerformanceList($where);
         $count = count($res);
         $Page       = new \Think\Page($count,15);
@@ -54,6 +63,9 @@ class performanceController extends BaseController
         $this->assign('department_list',$departmentList);
         $this->assign('list',$list);
         $this->assign('page',$show);// 赋值分页输出
+        $productModel = D('ProductType');
+        $product_type_list = $productModel->productTypeList(" where `status`='1'");
+        $this->assign('product_type_list',$product_type_list);
         $this->display();
     }
     /**
@@ -190,7 +202,7 @@ class performanceController extends BaseController
                 $this->ajaxReturn(array('code'=>1400,'msg'=>'请填写服务性质'));
             }
             $datas = " `department_id` = $department_id,`employee_id` = $employee_id,`performance`=$performance,`add_time`='$add_time',
-            `compact_no` = '$compact_no',`compact_time` = 'compact_time',`client_name`='$client_name',`client_truename`='$client_truename',
+            `compact_no` = '$compact_no',`compact_time` = '$compact_time',`client_name`='$client_name',`client_truename`='$client_truename',
             `product_type_id` = $product_type_id,`product_id` = '$product_id',`client_type` = '$client_type'";
             $where = " where id = $id";
             $res = $this->performanceModel->updatePerformanceInfo($where,$datas);
@@ -246,5 +258,47 @@ class performanceController extends BaseController
         }else{
             $this->ajaxReturn(array('code'=>200,'msg'=>'删除成功'));
         }
+    }
+
+    /**
+     * 部门业绩管理
+     */
+    public function departmentPerformance(){
+        $department_id = I("post.department_id");
+        $product_type_id = I("post.product_type_id");
+        $product_id = I("post.product_id");
+        $begin_time = I("post.begin_time");
+        $end_time = I("post.end_time");
+        $where1 = 1;
+        $where = 1;
+
+        if ($department_id !=0){
+            $where1.= " and `department_id` = $department_id";
+        }
+
+        if($product_type_id !=0 && $product_id!=0){
+            $where.= " and `product_type_id` = $product_type_id and `product_id` = $product_id";
+        }
+        if($product_type_id !=0 && $product_id == 0){
+            $where.= " and `product_type_id` = $product_type_id";
+        }
+        if($begin_time !='' && $end_time !=''){
+            $where.= " and `add_time`>'$begin_time' and `add_time` < '$end_time'";
+        }
+
+        $res = $this->performanceModel->getDepartmentPerformance($where,$where1);
+        $count = count($res);
+        $Page       = new \Think\Page($count,15);
+        $list=array_slice($res,$Page->firstRow,$Page->listRows);
+        $show       = $Page->show();// 分页显示输出
+        $departmentModel = D('Department');
+        $departmentList = $departmentModel->getDepartmentList();
+        $productModel = D('ProductType');
+        $product_type_list = $productModel->productTypeList(" where `status`='1'");
+        $this->assign('product_type_list',$product_type_list);
+        $this->assign('department_list',$departmentList);
+        $this->assign('list',$list);
+        $this->assign('page',$show);// 赋值分页输出
+        $this->display();
     }
 }
