@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9d7151f-f09c-4140-b11c-25dd997b1b79" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" afterPath="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Model/ProductTypeModel.class.php" afterPath="$PROJECT_DIR$/Application/Home/Model/ProductTypeModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html" afterPath="$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html" afterPath="$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/26d726e6c69c7474a6724c62207348dc.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/26d726e6c69c7474a6724c62207348dc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/45852edf3e8bdad4f76cff963716e3cd.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/45852edf3e8bdad4f76cff963716e3cd.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Common/17_06_01.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Common/17_06_01.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PerformanceController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PerformanceController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="455">
+              <caret line="46" column="58" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -136,17 +129,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PerformanceModel.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PerformanceModel.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="56" column="59" lean-forward="true" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
+            <state relative-caret-position="417">
+              <caret line="36" column="91" lean-forward="false" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
               <folding>
-                <marker date="1496310869288" expanded="true" signature="321:529" ph="insert into `qp_performance`... " />
-                <marker date="1496310869288" expanded="true" signature="763:1103" ph="select p.*,e... qp_performance" />
-                <marker date="1496310869288" expanded="true" signature="1284:1322" ph="select p.* f... qp_performance" />
-                <marker date="1496310869288" expanded="true" signature="1592:1627" ph="update `qp_p... " />
-                <marker date="1496310869288" expanded="true" signature="1826:1861" ph="delete from " />
+                <marker date="1496314490870" expanded="true" signature="321:529" ph="insert into `qp_performance`... " />
+                <marker date="1496314490870" expanded="true" signature="763:1103" ph="select p.*,e... qp_performance" />
+                <marker date="1496314490870" expanded="true" signature="1403:1441" ph="select p.* f... qp_performance" />
+                <marker date="1496314490870" expanded="true" signature="1711:1746" ph="update `qp_p... " />
+                <marker date="1496314490870" expanded="true" signature="1945:1980" ph="delete from " />
               </folding>
             </state>
           </provider>
@@ -238,11 +231,11 @@
         <option value="$PROJECT_DIR$/Application/Home/Model/EmployeeModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Wap/Controller/PerformanceController.class.php" />
         <option value="$PROJECT_DIR$/ThinkPHP/Conf/convention.php" />
-        <option value="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Model/ProductTypeModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" />
       </list>
     </option>
   </component>
@@ -486,12 +479,12 @@
       <workItem from="1496246019054" duration="7413000" />
       <workItem from="1496294574215" duration="1033000" />
       <workItem from="1496296808565" duration="12223000" />
-      <workItem from="1496312554445" duration="1509000" />
+      <workItem from="1496312554445" duration="1935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116537000" />
+    <option name="totallyTimeSpent" value="116963000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -503,7 +496,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
+    <frame x="-8" y="0" width="1932" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24839744" sideWeight="0.496208" order="0" side_tool="false" content_ui="combo" />
@@ -846,20 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="56" column="59" lean-forward="true" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
-          <folding>
-            <marker date="1496310869288" expanded="true" signature="321:529" ph="insert into `qp_performance`... " />
-            <marker date="1496310869288" expanded="true" signature="763:1103" ph="select p.*,e... qp_performance" />
-            <marker date="1496310869288" expanded="true" signature="1284:1322" ph="select p.* f... qp_performance" />
-            <marker date="1496310869288" expanded="true" signature="1592:1627" ph="update `qp_p... " />
-            <marker date="1496310869288" expanded="true" signature="1826:1861" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -897,9 +876,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        <state relative-caret-position="455">
+          <caret line="46" column="58" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="36" column="91" lean-forward="false" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
+          <folding>
+            <marker date="1496314490870" expanded="true" signature="321:529" ph="insert into `qp_performance`... " />
+            <marker date="1496314490870" expanded="true" signature="763:1103" ph="select p.*,e... qp_performance" />
+            <marker date="1496314490870" expanded="true" signature="1403:1441" ph="select p.* f... qp_performance" />
+            <marker date="1496314490870" expanded="true" signature="1711:1746" ph="update `qp_p... " />
+            <marker date="1496314490870" expanded="true" signature="1945:1980" ph="delete from " />
+          </folding>
         </state>
       </provider>
     </entry>

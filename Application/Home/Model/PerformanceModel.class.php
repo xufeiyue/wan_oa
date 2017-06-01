@@ -34,6 +34,7 @@ class PerformanceModel extends Model
         $sql = "select p.*,e.truename,d.department,pc.product_name,t.type_name from `qp_performance` as p LEFT JOIN `qp_employee` as e on p.employee_id = e.id LEFT JOIN 
 `qp_department` as d on p.department_id = d.id LEFT JOIN `qp_product_type` as t on p.product_type_id = t.id LEFT JOIN `qp_product` as pc on p.product_id = pc.id $where order by p.id desc";
         return $this->query($sql);
+        M('Performance as p')->join('left join qp_employee as e on p.employee_id = e.id')->where()->order()->select();
     }
 
     /**
