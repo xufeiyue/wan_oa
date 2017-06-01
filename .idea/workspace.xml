@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9d7151f-f09c-4140-b11c-25dd997b1b79" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" afterPath="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" />
-    </list>
+    <list default="true" id="b9d7151f-f09c-4140-b11c-25dd997b1b79" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -479,12 +477,12 @@
       <workItem from="1496246019054" duration="7413000" />
       <workItem from="1496294574215" duration="1033000" />
       <workItem from="1496296808565" duration="12223000" />
-      <workItem from="1496312554445" duration="1935000" />
+      <workItem from="1496312554445" duration="2319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116963000" />
+    <option name="totallyTimeSpent" value="117347000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -496,7 +494,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1056" extended-state="1" />
+    <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24839744" sideWeight="0.496208" order="0" side_tool="false" content_ui="combo" />
