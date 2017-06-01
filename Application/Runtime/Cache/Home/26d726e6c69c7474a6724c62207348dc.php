@@ -123,11 +123,16 @@
     <div class="tools">
         <form action="#" name="form1" method="post">
             <ul class="toolbar">
-                <li onclick="add();"><span><img src="/Public/Admin/images/t01.png" /></span>添加</li>&nbsp;&nbsp;
+                <!--<li onclick="add();"><span><img src="/Public/Admin/images/t01.png" /></span>添加</li>&nbsp;&nbsp;-->
                 选择部门：<select name="department_id"   style="border:solid 1px;" id="department_id">
                 <option value="0">请选择部门</option>
                 <?php if(is_array($department_list)): $i = 0; $__LIST__ = $department_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo['id']); ?>"><?php echo ($vo['department']); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
             </select>&nbsp;&nbsp;
+                员工姓名：<input type="text" name="truename" id="truename"style="border:solid 1px;">&nbsp;&nbsp;
+                员工姓名：<input type="text" name="truename" id="truename"style="border:solid 1px;">&nbsp;&nbsp;
+                员工姓名：<input type="text" name="truename" id="truename"style="border:solid 1px;">&nbsp;&nbsp;
+                员工姓名：<input type="text" name="truename" id="truename"style="border:solid 1px;"><br/>
+                员工姓名：<input type="text" name="truename" id="truename"style="border:solid 1px;">&nbsp;&nbsp;
                 员工姓名：<input type="text" name="truename" id="truename"style="border:solid 1px;">&nbsp;&nbsp;
                 开始时间：<input type="text" name="begin_time" id="begin_time" style="border:solid 1px;"onclick="jeDate({dateCell:'#begin_time',isTime:true,format:'YYYY-MM-DD'})"/>&nbsp;&nbsp;
                 结束时间：<input type="text" name="end_time" id="end_time" style="border:solid 1px;"onclick="jeDate({dateCell:'#end_time',isTime:true,format:'YYYY-MM-DD'})"/>&nbsp;&nbsp;
@@ -143,8 +148,15 @@
         <tr>
             <th>姓名</th>
             <th>部门名称</th>
-            <th>业绩</th>
-            <th>时间</th>
+            <th>系统时间</th>
+            <th>合同编号</th>
+            <th>合同日期</th>
+            <th>客户名称</th>
+            <th>客户联系人</th>
+            <th>产品类别</th>
+            <th>产品名称</th>
+            <th>服务性质</th>
+            <th>到账金额</th>
             <th>操作</th>
         </tr>
         </thead>
@@ -152,8 +164,15 @@
         <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                 <td><?php echo ($vo['truename']); ?></td>
                 <td><?php echo ($vo['department']); ?></td>
-                <td><?php echo ($vo['performance']); ?></td>
                 <td><?php echo ($vo['add_time']); ?></td>
+                <td><?php echo ($vo['compact_no']); ?></td>
+                <td><?php echo ($vo['compact_time']); ?></td>
+                <td><?php echo ($vo['client_name']); ?></td>
+                <td><?php echo ($vo['client_truename']); ?></td>
+                <td><?php echo ($vo['type_name']); ?></td>
+                <td><?php echo ($vo['product_name']); ?></td>
+                <td><?php echo ($vo['client_type']); ?></td>
+                <td><?php echo ($vo['performance']); ?></td>
                 <td><a href="javascript:edit(<?php echo ($vo['id']); ?>)" class="tablelink">修改</a>     <a href="javascript:del(<?php echo ($vo['id']); ?>)" class="tablelink" > 删除</a></td>
             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>

@@ -127,4 +127,14 @@ class ProductTypeModel extends Model
         $sql = "select * from `qp_product` where `type_id` = $type_id and `status` = '1'";
         return $this->query($sql);
     }
+
+    /**
+     * 获取指定产品类型下的所有产品
+     * @param int $id 产品类型id
+     * @return mixed
+     */
+    public function getTheProductList($id){
+        $sql = "select * from `qp_product` where type_id = $id and `status` = '1'";
+        return $this->query($sql);
+    }
 }

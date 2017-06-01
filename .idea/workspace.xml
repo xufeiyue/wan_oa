@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9d7151f-f09c-4140-b11c-25dd997b1b79" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" afterPath="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Model/ProductTypeModel.class.php" afterPath="$PROJECT_DIR$/Application/Home/Model/ProductTypeModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html" afterPath="$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html" afterPath="$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/26d726e6c69c7474a6724c62207348dc.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/26d726e6c69c7474a6724c62207348dc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/45852edf3e8bdad4f76cff963716e3cd.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/45852edf3e8bdad4f76cff963716e3cd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Common/17_06_01.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Common/17_06_01.log" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="oa@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="oa@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="oa" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="oa" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PerformanceController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index_leftView.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index_leftView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="46" column="116" lean-forward="true" selection-start-line="46" selection-start-column="116" selection-end-line="46" selection-end-column="116" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductTypeModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Model/ProductTypeModel.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="73" column="34" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="34" />
+              <folding>
+                <marker date="1496312290824" expanded="true" signature="360:399" ph="select * fro... qp_product_type" />
+                <marker date="1496312290824" expanded="true" signature="598:649" ph="insert into `qp_product_type`... " />
+                <marker date="1496312290824" expanded="true" signature="883:947" ph="update `qp_p... " />
+                <marker date="1496312290824" expanded="true" signature="1147:1179" ph="select * fro... qp_product_type" />
+                <marker date="1496312290824" expanded="true" signature="1395:1450" ph="update `qp_p... " />
+                <marker date="1496312290824" expanded="true" signature="1703:1809" ph="select p.*,t... qp_product" />
+                <marker date="1496312290824" expanded="true" signature="2000:2066" ph="insert into `qp_product`... " />
+                <marker date="1496312290824" expanded="true" signature="2250:2348" ph="select p.*,t... qp_product" />
+                <marker date="1496312290824" expanded="true" signature="2600:2641" ph="update `qp_p... " />
+                <marker date="1496312290824" expanded="true" signature="2824:2874" ph="update `qp_p... " />
+                <marker date="1496312290824" expanded="true" signature="3085:3157" ph="select * fro... qp_product" />
+                <marker date="1496312290824" expanded="true" signature="3350:3392" ph="select * fro... qp_product" />
+                <marker date="1496312290824" expanded="true" signature="3350:3393" ph="select * fro... qp_product" />
+                <marker date="1496312290824" expanded="true" signature="3350:3415" ph="select * fro... qp_product" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Performance_performanceList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="136" column="95" lean-forward="true" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="95" />
+              <folding>
+                <element signature="e#5049#5055#0" expanded="true" />
+                <element signature="e#5055#5061#0" expanded="true" />
+                <element signature="e#5157#5163#0" expanded="true" />
+                <element signature="e#5163#5169#0" expanded="true" />
+                <element signature="e#5265#5271#0" expanded="true" />
+                <element signature="e#5271#5277#0" expanded="true" />
+                <element signature="e#5475#5481#0" expanded="true" />
+                <element signature="e#5481#5487#0" expanded="true" />
+                <element signature="e#5583#5589#0" expanded="true" />
+                <element signature="e#5589#5595#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Performance_editPerformanceInfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="48" column="62" lean-forward="false" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PerformanceModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="56" column="59" lean-forward="true" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
+              <folding>
+                <marker date="1496310869288" expanded="true" signature="321:529" ph="insert into `qp_performance`... " />
+                <marker date="1496310869288" expanded="true" signature="763:1103" ph="select p.*,e... qp_performance" />
+                <marker date="1496310869288" expanded="true" signature="1284:1322" ph="select p.* f... qp_performance" />
+                <marker date="1496310869288" expanded="true" signature="1592:1627" ph="update `qp_p... " />
+                <marker date="1496310869288" expanded="true" signature="1826:1861" ph="delete from " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DEFAULT_AJAX_RETURN</find>
+      <find>getDepartmentList</find>
+      <find>getDepartmentInfo</find>
+      <find>excute</find>
+      <find>execute</find>
+      <find>updateDepartmentInfo</find>
+      <find>deleteDepartment</find>
+      <find>deleteDepartmentInfo</find>
+      <find>updateEmployeeInfo</find>
+      <find>employeeList</find>
+      <find>getAdminCount</find>
+      <find>tspan</find>
+      <find>图表标题</find>
+      <find>/Public/Wap/main/images/fanhui.png</find>
+      <find>productTypeList</find>
+      <find>delProductType</find>
+      <find>addPerformance</find>
+      <find>product_id</find>
+      <find>getPerformanceInfo</find>
+      <find>getPerformanceList</find>
+      <find>product_list</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Application/Home/View/Index_index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index_left.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index_right.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index_topView.html" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Think/Page.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index_mainView.html" />
+        <option value="$PROJECT_DIR$/Application/Runtime/Logs/Home/17_05_19.log" />
+        <option value="$PROJECT_DIR$/Application/Home/Model/DepartmentModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Department_editDepartment.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/DepartmentController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Department_DepartmentList.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/EmployeeController.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Employee_addEmployee.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Employee_editEmployee.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Employee_editEmployeeInfo.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Employee_employeeList.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/performanceController.class.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3a5c3571-a4a6-4564-a43c-99976d8ec2c6/console.sql" />
+        <option value="$PROJECT_DIR$/Application/Runtime/Logs/Home/17_05_21.log" />
+        <option value="$PROJECT_DIR$/Application/Wap/Controller/BaseController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index_loginView.html" />
+        <option value="$PROJECT_DIR$/Application/Runtime/Logs/Wap/17_05_21.log" />
+        <option value="$PROJECT_DIR$/Application/Wap/View/Index_loginView.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Model/AdminModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Wap/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/BaseController.class.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Application/Wap/View/Index_mainView.html" />
+        <option value="$PROJECT_DIR$/Application/Wap/View/Performance_dayPerformanceList.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Model/ProductModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Department_addDepartment.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Product_addProductType.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Product_editProductType.html" />
+        <option value="$PROJECT_DIR$/Application/Runtime/Logs/Home/17_06_01.log" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Product_productTypeList.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/EmployeeController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Product_addProduct.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Product_editProduct.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Product_productList.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index_leftView.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/ProductController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Performance_addPerformance.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Model/EmployeeModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Wap/Controller/PerformanceController.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Conf/convention.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Model/ProductTypeModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1932" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9d7151f-f09c-4140-b11c-25dd997b1b79" name="Default" comment="" />
+      <created>1494468776375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1494468776375</updated>
+      <workItem from="1494468777689" duration="6828000" />
+      <workItem from="1494578975351" duration="5313000" />
+      <workItem from="1494640852449" duration="9555000" />
+      <workItem from="1494653787495" duration="777000" />
+      <workItem from="1494654597678" duration="8122000" />
+      <workItem from="1494812220963" duration="637000" />
+      <workItem from="1494910516504" duration="344000" />
+      <workItem from="1494985546484" duration="11000" />
+      <workItem from="1494990289434" duration="1243000" />
+      <workItem from="1495009835886" duration="25000" />
+      <workItem from="1495199449391" duration="249000" />
+      <workItem from="1495202418437" duration="5107000" />
+      <workItem from="1495288073767" duration="6304000" />
+      <workItem from="1495318587971" duration="7977000" />
+      <workItem from="1495310676638" duration="40000" />
+      <workItem from="1495310729949" duration="13275000" />
+      <workItem from="1495352628729" duration="28000" />
+      <workItem from="1495354121079" duration="20596000" />
+      <workItem from="1496120379766" duration="52000" />
+      <workItem from="1496120468876" duration="510000" />
+      <workItem from="1496171461672" duration="541000" />
+      <workItem from="1496201553010" duration="2000" />
+      <workItem from="1496220897495" duration="6823000" />
+      <workItem from="1496246019054" duration="7413000" />
+      <workItem from="1496294574215" duration="1033000" />
+      <workItem from="1496296808565" duration="12223000" />
+      <workItem from="1496312554445" duration="1509000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="116537000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24839744" sideWeight="0.496208" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09850905" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17963752" sideWeight="0.503792" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/352d11fc/3a5c3571-a4a6-4564-a43c-99976d8ec2c6/oa.qp_admin" />
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Model.class.php" />
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index_mainView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index_rightView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="199" column="42" lean-forward="false" selection-start-line="199" selection-start-column="42" selection-end-line="199" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Runtime/Logs/Home/17_05_19.log" />
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/DepartmentController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="34" column="25" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/352d11fc/3a5c3571-a4a6-4564-a43c-99976d8ec2c6/oa.qp_employee" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="864" column="0" lean-forward="false" selection-start-line="864" selection-start-column="0" selection-end-line="864" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Employee_employeeList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="139" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ee57a524-68a8-4105-8f1b-69f9118f53c8/console.sql" />
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Department_editDepartment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1647">
+          <caret line="61" column="105" lean-forward="false" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Employee_editEmployeeInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3a5c3571-a4a6-4564-a43c-99976d8ec2c6/console.sql" />
+    <entry file="file://$PROJECT_DIR$/Application/Home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Runtime/Logs/Home/17_05_21.log" />
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index_loginView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="55" column="6" lean-forward="false" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/BaseController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/AdminModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Wap/View/Index_loginView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="92" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Runtime/Logs/Wap/17_05_21.log" />
+    <entry file="file://$PROJECT_DIR$/Application/Wap/View/Performance_dayPerformanceList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="39" column="60" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Department_DepartmentList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="85" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/DepartmentModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <marker date="1495205342000" expanded="true" signature="361:414" ph="select `id`,... qp_department" />
+            <marker date="1495205342000" expanded="true" signature="665:730" ph="insert into `qp_department`... " />
+            <marker date="1495205342000" expanded="true" signature="965:1001" ph="select * fro... qp_department" />
+            <marker date="1495205342000" expanded="true" signature="1293:1332" ph="update `qp_d... " />
+            <marker date="1495205342000" expanded="true" signature="1610:1644" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Department_addDepartment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Product_editProductType.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Product_productTypeList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="65" column="36" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Product_addProductType.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Runtime/Logs/Home/17_06_01.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="1306" column="86" lean-forward="true" selection-start-line="1306" selection-start-column="86" selection-end-line="1306" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Employee_addEmployee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="54" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Product_editProduct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Product_productList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1593">
+          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Product_addProduct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="72" column="21" lean-forward="true" selection-start-line="67" selection-start-column="12" selection-end-line="72" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/EmployeeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Controller.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="191" column="23" lean-forward="false" selection-start-line="191" selection-start-column="23" selection-end-line="191" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_addPerformance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="96" column="43" lean-forward="false" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/EmployeeModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="72" column="42" lean-forward="false" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+          <folding>
+            <marker date="1496305222788" expanded="true" signature="317:388" ph="insert into `qp_employee`... " />
+            <marker date="1496305222788" expanded="true" signature="615:728" ph="select d.dep... qp_employee" />
+            <marker date="1496305222788" expanded="true" signature="924:958" ph="select * fro... qp_employee" />
+            <marker date="1496305222788" expanded="true" signature="1201:1233" ph="update `qp_e... " />
+            <marker date="1496305222788" expanded="true" signature="1435:1467" ph="delete from " />
+            <marker date="1496305222788" expanded="true" signature="1672:1723" ph="select * fro... qp_employe" />
+            <marker date="1496305222788" expanded="true" signature="1672:1724" ph="select * fro... qp_employe" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Wap/Controller/BaseController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Wap/View/Performance_performanceList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Wap/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1164">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Wap/Controller/PerformanceController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Wap/View/Index_mainView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ProductController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="172" column="38" lean-forward="false" selection-start-line="172" selection-start-column="20" selection-end-line="172" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/ProductTypeModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="73" column="34" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="34" />
+          <folding>
+            <marker date="1496312290824" expanded="true" signature="360:399" ph="select * fro... qp_product_type" />
+            <marker date="1496312290824" expanded="true" signature="598:649" ph="insert into `qp_product_type`... " />
+            <marker date="1496312290824" expanded="true" signature="883:947" ph="update `qp_p... " />
+            <marker date="1496312290824" expanded="true" signature="1147:1179" ph="select * fro... qp_product_type" />
+            <marker date="1496312290824" expanded="true" signature="1395:1450" ph="update `qp_p... " />
+            <marker date="1496312290824" expanded="true" signature="1703:1809" ph="select p.*,t... qp_product" />
+            <marker date="1496312290824" expanded="true" signature="2000:2066" ph="insert into `qp_product`... " />
+            <marker date="1496312290824" expanded="true" signature="2250:2348" ph="select p.*,t... qp_product" />
+            <marker date="1496312290824" expanded="true" signature="2600:2641" ph="update `qp_p... " />
+            <marker date="1496312290824" expanded="true" signature="2824:2874" ph="update `qp_p... " />
+            <marker date="1496312290824" expanded="true" signature="3085:3157" ph="select * fro... qp_product" />
+            <marker date="1496312290824" expanded="true" signature="3350:3392" ph="select * fro... qp_product" />
+            <marker date="1496312290824" expanded="true" signature="3350:3393" ph="select * fro... qp_product" />
+            <marker date="1496312290824" expanded="true" signature="3350:3415" ph="select * fro... qp_product" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="56" column="59" lean-forward="true" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
+          <folding>
+            <marker date="1496310869288" expanded="true" signature="321:529" ph="insert into `qp_performance`... " />
+            <marker date="1496310869288" expanded="true" signature="763:1103" ph="select p.*,e... qp_performance" />
+            <marker date="1496310869288" expanded="true" signature="1284:1322" ph="select p.* f... qp_performance" />
+            <marker date="1496310869288" expanded="true" signature="1592:1627" ph="update `qp_p... " />
+            <marker date="1496310869288" expanded="true" signature="1826:1861" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="48" column="62" lean-forward="false" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index_leftView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="46" column="116" lean-forward="true" selection-start-line="46" selection-start-column="116" selection-end-line="46" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="136" column="95" lean-forward="true" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="95" />
+          <folding>
+            <element signature="e#5049#5055#0" expanded="true" />
+            <element signature="e#5055#5061#0" expanded="true" />
+            <element signature="e#5157#5163#0" expanded="true" />
+            <element signature="e#5163#5169#0" expanded="true" />
+            <element signature="e#5265#5271#0" expanded="true" />
+            <element signature="e#5271#5277#0" expanded="true" />
+            <element signature="e#5475#5481#0" expanded="true" />
+            <element signature="e#5481#5487#0" expanded="true" />
+            <element signature="e#5583#5589#0" expanded="true" />
+            <element signature="e#5589#5595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

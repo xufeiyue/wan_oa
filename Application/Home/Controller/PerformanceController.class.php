@@ -26,6 +26,12 @@ class performanceController extends BaseController
         $truename = I("post.truename");
         $begin_time = I("post.begin_time");
         $end_time = I("post.end_time");
+        $compact_no = I("post.compact_no");
+        $compact_time = I("post.compact_time");
+        $client_name = I("post.client_name");
+        $client_truename = I("post.client_truename");
+        $product_type_id = I("post.product_type_id");
+        $product_id = I("post.product_id");
         $where = '';
         if($truename !=""){
             $where.= " where e.truename like '%$truename%'";
@@ -134,9 +140,24 @@ class performanceController extends BaseController
      */
     public function editPerformanceInfo(){
         if(IS_POST){
+            $department_id = I("post.department_id");
+            $employee_id = I("post.employee_id");
             $performance = I("post.performance");
             $add_time = I("post.add_time");
+            $compact_no = I("post.compact_no");
+            $compact_time = I("post.compact_time");
+            $client_name = I("post.client_name");
+            $client_truename = I("post.client_truename");
+            $product_type_id = I("post.product_type_id");
+            $product_id = I("post.product_id");
+            $client_type = I("post.client_type");
             $id = I("post.id");
+            if($department_id == 0){
+                $this->ajaxReturn(array('code'=>100,'msg'=>'请选择部门'));
+            }
+            if($employee_id == 0){
+                $this->ajaxReturn(array('code'=>300,'msg'=>'请选择员工'));
+            }
             if($performance == ''){
                 $this->ajaxReturn(array('code'=>400,'msg'=>'请填写业绩'));
             }elseif (!is_numeric($performance)){
@@ -145,9 +166,32 @@ class performanceController extends BaseController
                 $this->ajaxReturn(array('code'=>600,'msg'=>'业绩不能为负数'));
             }
             if($add_time == ''){
-                $this->ajaxReturn(array('code'=>700,'msg'=>'请填写时间'));
+                $this->ajaxReturn(array('code'=>700,'msg'=>'请填写系统时间'));
             }
-            $datas = " `performance`=$performance,`add_time`='$add_time'";
+            if($compact_no == ''){
+                $this->ajaxReturn(array('code'=>800,'msg'=>'请填写合同编号'));
+            }
+            if($compact_time == ''){
+                $this->ajaxReturn(array('code'=>900,'msg'=>'请填写合同日期'));
+            }
+            if($client_name == ''){
+                $this->ajaxReturn(array('code'=>1000,'msg'=>'请填写客户名称'));
+            }
+            if($client_truename == ''){
+                $this->ajaxReturn(array('code'=>1100,'msg'=>'请填写客户联系人'));
+            }
+            if($product_type_id == ''){
+                $this->ajaxReturn(array('code'=>1200,'msg'=>'请填写产品类别'));
+            }
+            if($product_id == ''){
+                $this->ajaxReturn(array('code'=>1300,'msg'=>'请填写产品'));
+            }
+            if($client_type == ''){
+                $this->ajaxReturn(array('code'=>1400,'msg'=>'请填写服务性质'));
+            }
+            $datas = " `department_id` = $department_id,`employee_id` = $employee_id,`performance`=$performance,`add_time`='$add_time',
+            `compact_no` = '$compact_no',`compact_time` = 'compact_time',`client_name`='$client_name',`client_truename`='$client_truename',
+            `product_type_id` = $product_type_id,`product_id` = '$product_id',`client_type` = '$client_type'";
             $where = " where id = $id";
             $res = $this->performanceModel->updatePerformanceInfo($where,$datas);
             if($res === false){
@@ -169,6 +213,12 @@ class performanceController extends BaseController
             $employee_list = $emp_model->getDepartmentEmployeeList($info['department_id']);
             $this->assign('employee_list',$employee_list);
             /**
+             * 获取指定产品类型下的所有产品
+             */
+            $product_model = D('ProductType');
+            $product_list = $product_model->getTheProductList($info['product_type_id']);
+            $this->assign('product_list',$product_list);
+            /**
              * 获取部门列表
              */
             $departmentModel = D('Department');
@@ -180,7 +230,7 @@ class performanceController extends BaseController
             $productModel = D('ProductType');
             $where1 = " where `status` = '1'";
             $product_type_list = $productModel->productTypeList($where1);
-            $this->assign('product_list',$product_type_list);
+            $this->assign('product_type_list',$product_type_list);
             $this->display();
         }
     }

@@ -123,7 +123,7 @@
     <div class="tools">
         <form action="#" name="form1" method="post">
             <ul class="toolbar">
-                <li onclick="add();"><span><img src="/Public/Admin/images/t01.png" /></span>添加</li>&nbsp;&nbsp;
+                <!--<li onclick="add();"><span><img src="/Public/Admin/images/t01.png" /></span>添加</li>&nbsp;&nbsp;-->
                 选择部门：<select name="department_id"   style="border:solid 1px;" id="department_id">
                 <option value="0">请选择部门</option>
                 <volist name="department_list" id="vo">
@@ -131,6 +131,11 @@
                 </volist>
             </select>&nbsp;&nbsp;
                 员工姓名：<input type="text" name="truename" id="truename"style="border:solid 1px;">&nbsp;&nbsp;
+                合同编号：<input type="text" name="truename" id="truename"style="border:solid 1px;">&nbsp;&nbsp;
+                客户名称：<input type="text" name="truename" id="truename"style="border:solid 1px;">&nbsp;&nbsp;
+                客户联系人：<input type="text" name="truename" id="truename"style="border:solid 1px;"><br/>
+                产品类别：<input type="text" name="truename" id="truename"style="border:solid 1px;">&nbsp;&nbsp;
+                产品名称：<input type="text" name="truename" id="truename"style="border:solid 1px;">&nbsp;&nbsp;
                 开始时间：<input type="text" name="begin_time" id="begin_time" style="border:solid 1px;"onclick="jeDate({dateCell:'#begin_time',isTime:true,format:'YYYY-MM-DD'})"/>&nbsp;&nbsp;
                 结束时间：<input type="text" name="end_time" id="end_time" style="border:solid 1px;"onclick="jeDate({dateCell:'#end_time',isTime:true,format:'YYYY-MM-DD'})"/>&nbsp;&nbsp;
                 <input name="sub" type="submit" class="btn" value="搜索" />
@@ -145,8 +150,15 @@
         <tr>
             <th>姓名</th>
             <th>部门名称</th>
-            <th>业绩</th>
-            <th>时间</th>
+            <th>系统时间</th>
+            <th>合同编号</th>
+            <th>合同日期</th>
+            <th>客户名称</th>
+            <th>客户联系人</th>
+            <th>产品类别</th>
+            <th>产品名称</th>
+            <th>服务性质</th>
+            <th>到账金额</th>
             <th>操作</th>
         </tr>
         </thead>
@@ -155,8 +167,15 @@
             <tr>
                 <td><{$vo['truename']}></td>
                 <td><{$vo['department']}></td>
-                <td><{$vo['performance']}></td>
                 <td><{$vo['add_time']}></td>
+                <td><{$vo['compact_no']}></td>
+                <td><{$vo['compact_time']}></td>
+                <td><{$vo['client_name']}></td>
+                <td><{$vo['client_truename']}></td>
+                <td><{$vo['type_name']}></td>
+                <td><{$vo['product_name']}></td>
+                <td><{$vo['client_type']}></td>
+                <td><{$vo['performance']}></td>
                 <td><a href="javascript:edit(<{$vo['id']}>)" class="tablelink">修改</a>     <a href="javascript:del(<{$vo['id']}>)" class="tablelink" > 删除</a></td>
             </tr>
         </volist>
