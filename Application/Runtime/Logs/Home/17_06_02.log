@@ -3200,3 +3200,879 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
 
+[ 2017-06-02T04:31:41+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-06-02T04:31:41+08:00 ] 127.0.0.1 /index.php/Home/Index/loginView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-06-02T04:31:42+08:00 ] 127.0.0.1 /Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: select count(*) as c from `qp_admin` where `admin_name`  = 'admin' and `admin_pwd` = '21232f297a57a5a743894a0e4a801fc3' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'id' E:\phpStudy\WWW\oa\Application\Home\Controller\IndexController.class.php 第 53 行.
+
+[ 2017-06-02T04:31:42+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-06-02T04:31:42+08:00 ] 127.0.0.1 /index.php/Home/Index/mainView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-06-02T04:31:42+08:00 ] 127.0.0.1 /index.php/Home/Index/topView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-06-02T04:31:42+08:00 ] 127.0.0.1 /index.php/Home/Index/leftView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-06-02T04:31:42+08:00 ] 127.0.0.1 /index.php/Home/Index/rightView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-06-02T04:31:44+08:00 ] 127.0.0.1 /index.php/Home/Performance/departmentPerformance.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `qp_performance` [ RunTime:0.0073s ]
+SQL: select IFNULL(a.performance,0) as performance,d.department,d.id as department_id from (select sum(performance) as performance,department_id 
+from `qp_performance` where 1 group by department_id ) as a RIGHT JOIN `qp_department` as d on a.department_id = d.id where 1 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qp_department` [ RunTime:0.0063s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 295 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 295 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: where E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: orderby E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+SQL: select `id`,`department` from `qp_department`   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qp_product_type` [ RunTime:0.0063s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ProductTypeModel::productTypeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 297 and defined E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 21 行.
+SQL: select * from `qp_product_type`  where `status`='1'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-06-02T04:31:47+08:00 ] 127.0.0.1 /index.php/Home/Performance/departmentPerformance.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `qp_performance` [ RunTime:0.0075s ]
+SQL: select IFNULL(a.performance,0) as performance,d.department,d.id as department_id from (select sum(performance) as performance,department_id 
+from `qp_performance` where 1 group by department_id ) as a RIGHT JOIN `qp_department` as d on a.department_id = d.id where 1 and `department_id` = 1 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qp_department` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 295 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 295 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: where E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: orderby E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+SQL: select `id`,`department` from `qp_department`   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qp_product_type` [ RunTime:0.0055s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ProductTypeModel::productTypeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 297 and defined E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 21 行.
+SQL: select * from `qp_product_type`  where `status`='1'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-06-02T04:31:48+08:00 ] 127.0.0.1 /index.php/Home/Performance/performanceList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `qp_performance` [ RunTime:0.0077s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PerformanceModel::getPerformanceList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 56 and defined E:\phpStudy\WWW\oa\Application\Home\Model\PerformanceModel.class.php 第 33 行.
+SQL: select p.*,e.truename,d.department,pc.product_name,t.type_name from `qp_performance` as p 
+LEFT JOIN `qp_employee` as e on p.employee_id = e.id LEFT JOIN 
+`qp_department` as d on p.department_id = d.id LEFT JOIN `qp_product_type` as t on p.product_type_id = t.id 
+LEFT JOIN `qp_product` as pc on p.product_id = pc.id where 1  order by p.id desc [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `qp_department` [ RunTime:0.0061s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: where E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: orderby E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+SQL: select `id`,`department` from `qp_department`   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qp_product_type` [ RunTime:0.0058s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ProductTypeModel::productTypeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 67 and defined E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 21 行.
+SQL: select * from `qp_product_type`  where `status`='1'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2017-06-02T04:31:49+08:00 ] 127.0.0.1 /Home/Employee/ajaxGetEmployeeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `qp_employee` [ RunTime:0.0084s ]
+NOTIC: [2] Missing argument 2 for Home\Model\EmployeeModel::employeeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\EmployeeController.class.php on line 126 and defined E:\phpStudy\WWW\oa\Application\Home\Model\EmployeeModel.class.php 第 30 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\EmployeeModel.class.php 第 31 行.
+SQL: select d.department,e.* from `qp_employee` as e INNER JOIN `qp_department` as d on e.department_id = d.id  where e.department_id = 1  [ RunTime:0.0003s ]
+
+[ 2017-06-02T04:31:50+08:00 ] 127.0.0.1 /index.php/Home/Performance/performanceList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `qp_performance` [ RunTime:0.0061s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PerformanceModel::getPerformanceList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 56 and defined E:\phpStudy\WWW\oa\Application\Home\Model\PerformanceModel.class.php 第 33 行.
+SQL: select p.*,e.truename,d.department,pc.product_name,t.type_name from `qp_performance` as p 
+LEFT JOIN `qp_employee` as e on p.employee_id = e.id LEFT JOIN 
+`qp_department` as d on p.department_id = d.id LEFT JOIN `qp_product_type` as t on p.product_type_id = t.id 
+LEFT JOIN `qp_product` as pc on p.product_id = pc.id where 1  and p.employee_id = 1 order by p.id desc [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qp_department` [ RunTime:0.0055s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: where E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: orderby E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+SQL: select `id`,`department` from `qp_department`   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qp_product_type` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ProductTypeModel::productTypeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 67 and defined E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 21 行.
+SQL: select * from `qp_product_type`  where `status`='1'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2017-06-02T04:31:55+08:00 ] 127.0.0.1 /Home/Employee/ajaxGetEmployeeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `qp_employee` [ RunTime:0.0064s ]
+NOTIC: [2] Missing argument 2 for Home\Model\EmployeeModel::employeeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\EmployeeController.class.php on line 126 and defined E:\phpStudy\WWW\oa\Application\Home\Model\EmployeeModel.class.php 第 30 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\EmployeeModel.class.php 第 31 行.
+SQL: select d.department,e.* from `qp_employee` as e INNER JOIN `qp_department` as d on e.department_id = d.id  where e.department_id = 2  [ RunTime:0.0003s ]
+
+[ 2017-06-02T04:31:57+08:00 ] 127.0.0.1 /index.php/Home/Performance/performanceList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `qp_performance` [ RunTime:0.0073s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PerformanceModel::getPerformanceList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 56 and defined E:\phpStudy\WWW\oa\Application\Home\Model\PerformanceModel.class.php 第 33 行.
+SQL: select p.*,e.truename,d.department,pc.product_name,t.type_name from `qp_performance` as p 
+LEFT JOIN `qp_employee` as e on p.employee_id = e.id LEFT JOIN 
+`qp_department` as d on p.department_id = d.id LEFT JOIN `qp_product_type` as t on p.product_type_id = t.id 
+LEFT JOIN `qp_product` as pc on p.product_id = pc.id where 1  and p.employee_id = 5 order by p.id desc [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qp_department` [ RunTime:0.0058s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: where E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: orderby E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+SQL: select `id`,`department` from `qp_department`   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qp_product_type` [ RunTime:0.0063s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ProductTypeModel::productTypeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 67 and defined E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 21 行.
+SQL: select * from `qp_product_type`  where `status`='1'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-06-02T04:32:03+08:00 ] 127.0.0.1 /Home/Employee/ajaxGetEmployeeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `qp_employee` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 2 for Home\Model\EmployeeModel::employeeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\EmployeeController.class.php on line 126 and defined E:\phpStudy\WWW\oa\Application\Home\Model\EmployeeModel.class.php 第 30 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\EmployeeModel.class.php 第 31 行.
+SQL: select d.department,e.* from `qp_employee` as e INNER JOIN `qp_department` as d on e.department_id = d.id  where e.department_id = 2  [ RunTime:0.0003s ]
+
+[ 2017-06-02T04:32:05+08:00 ] 127.0.0.1 /index.php/Home/Performance/performanceList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `qp_performance` [ RunTime:0.0075s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PerformanceModel::getPerformanceList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 56 and defined E:\phpStudy\WWW\oa\Application\Home\Model\PerformanceModel.class.php 第 33 行.
+SQL: select p.*,e.truename,d.department,pc.product_name,t.type_name from `qp_performance` as p 
+LEFT JOIN `qp_employee` as e on p.employee_id = e.id LEFT JOIN 
+`qp_department` as d on p.department_id = d.id LEFT JOIN `qp_product_type` as t on p.product_type_id = t.id 
+LEFT JOIN `qp_product` as pc on p.product_id = pc.id where 1  and p.employee_id = 5 order by p.id desc [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qp_department` [ RunTime:0.0062s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: where E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: orderby E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+SQL: select `id`,`department` from `qp_department`   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qp_product_type` [ RunTime:0.0056s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ProductTypeModel::productTypeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 67 and defined E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 21 行.
+SQL: select * from `qp_product_type`  where `status`='1'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2017-06-02T04:32:06+08:00 ] 127.0.0.1 /Home/Employee/ajaxGetEmployeeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `qp_employee` [ RunTime:0.0075s ]
+NOTIC: [2] Missing argument 2 for Home\Model\EmployeeModel::employeeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\EmployeeController.class.php on line 126 and defined E:\phpStudy\WWW\oa\Application\Home\Model\EmployeeModel.class.php 第 30 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\EmployeeModel.class.php 第 31 行.
+SQL: select d.department,e.* from `qp_employee` as e INNER JOIN `qp_department` as d on e.department_id = d.id  where e.department_id = 1  [ RunTime:0.0003s ]
+
+[ 2017-06-02T04:32:07+08:00 ] 127.0.0.1 /index.php/Home/Performance/performanceList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `qp_performance` [ RunTime:0.0076s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PerformanceModel::getPerformanceList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 56 and defined E:\phpStudy\WWW\oa\Application\Home\Model\PerformanceModel.class.php 第 33 行.
+SQL: select p.*,e.truename,d.department,pc.product_name,t.type_name from `qp_performance` as p 
+LEFT JOIN `qp_employee` as e on p.employee_id = e.id LEFT JOIN 
+`qp_department` as d on p.department_id = d.id LEFT JOIN `qp_product_type` as t on p.product_type_id = t.id 
+LEFT JOIN `qp_product` as pc on p.product_id = pc.id where 1  and p.employee_id = 1 order by p.id desc [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qp_department` [ RunTime:0.0056s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: where E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: orderby E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+SQL: select `id`,`department` from `qp_department`   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qp_product_type` [ RunTime:0.0055s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ProductTypeModel::productTypeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 67 and defined E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 21 行.
+SQL: select * from `qp_product_type`  where `status`='1'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-06-02T04:32:12+08:00 ] 127.0.0.1 /index.php/Home/Performance/performanceList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `qp_performance` [ RunTime:0.0061s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PerformanceModel::getPerformanceList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 56 and defined E:\phpStudy\WWW\oa\Application\Home\Model\PerformanceModel.class.php 第 33 行.
+SQL: select p.*,e.truename,d.department,pc.product_name,t.type_name from `qp_performance` as p 
+LEFT JOIN `qp_employee` as e on p.employee_id = e.id LEFT JOIN 
+`qp_department` as d on p.department_id = d.id LEFT JOIN `qp_product_type` as t on p.product_type_id = t.id 
+LEFT JOIN `qp_product` as pc on p.product_id = pc.id where 1  and p.client_truename like '%111%' order by p.id desc [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qp_department` [ RunTime:0.0065s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: where E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: orderby E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+SQL: select `id`,`department` from `qp_department`   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qp_product_type` [ RunTime:0.0055s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ProductTypeModel::productTypeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 67 and defined E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 21 行.
+SQL: select * from `qp_product_type`  where `status`='1'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-06-02T10:23:32+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-06-02T10:23:32+08:00 ] 127.0.0.1 /index.php/Home/Index/loginView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-06-02T10:23:34+08:00 ] 127.0.0.1 /Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'm300net_web'@'localhost' (using password: YES)
+
+[ 2017-06-02T10:23:40+08:00 ] 127.0.0.1 /index.php/Home/Index/loginView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2017-06-02T10:23:49+08:00 ] 127.0.0.1 /Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: select count(*) as c from `qp_admin` where `admin_name`  = 'admin' and `admin_pwd` = '21232f297a57a5a743894a0e4a801fc3' [ RunTime:0.0170s ]
+NOTIC: [2] Illegal string offset 'id' E:\phpStudy\WWW\oa\Application\Home\Controller\IndexController.class.php 第 53 行.
+
+[ 2017-06-02T10:23:49+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-06-02T10:23:49+08:00 ] 127.0.0.1 /index.php/Home/Index/mainView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-06-02T10:23:49+08:00 ] 127.0.0.1 /index.php/Home/Index/topView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-06-02T10:23:49+08:00 ] 127.0.0.1 /index.php/Home/Index/leftView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-06-02T10:23:49+08:00 ] 127.0.0.1 /index.php/Home/Index/rightView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2017-06-02T10:23:52+08:00 ] 127.0.0.1 /index.php/Home/Product/productTypeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `qp_product_type` [ RunTime:0.0057s ]
+SQL: select * from `qp_product_type`  where `status` = '1'  order by id desc [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-06-02T10:23:53+08:00 ] 127.0.0.1 /index.php/Home/Product/productList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `qp_product_type` [ RunTime:0.0052s ]
+SQL: select p.*,t.type_name from `qp_product` as p LEFT JOIN `qp_product_type` as t on p.type_id = t.id  where p.`status` = '1'  order by p.id desc [ RunTime:0.1410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001831s ]
+
+[ 2017-06-02T10:23:54+08:00 ] 127.0.0.1 /index.php/Home/Department/DepartmentList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `qp_department` [ RunTime:0.0054s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\DepartmentController.class.php on line 21 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\DepartmentController.class.php on line 21 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: where E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: orderby E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+SQL: select `id`,`department` from `qp_department`   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-06-02T10:23:54+08:00 ] 127.0.0.1 /index.php/Home/Employee/employeeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `qp_employee` [ RunTime:0.0055s ]
+SQL: select d.department,e.* from `qp_employee` as e INNER JOIN `qp_department` as d on e.department_id = d.id   order by e.id desc [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qp_department` [ RunTime:0.0033s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\EmployeeController.class.php on line 33 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\EmployeeController.class.php on line 33 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: where E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: orderby E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+SQL: select `id`,`department` from `qp_department`   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-06-02T10:23:55+08:00 ] 127.0.0.1 /index.php/Home/Performance/addPerformance.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `qp_performance` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `qp_department` [ RunTime:0.0032s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 138 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 138 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: where E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: orderby E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+SQL: select `id`,`department` from `qp_department`   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qp_product_type` [ RunTime:0.0038s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ProductTypeModel::productTypeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 145 and defined E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 21 行.
+SQL: select * from `qp_product_type`  where `status` = '1'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-06-02T10:23:57+08:00 ] 127.0.0.1 /index.php/Home/Performance/performanceList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `qp_performance` [ RunTime:0.0055s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PerformanceModel::getPerformanceList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 56 and defined E:\phpStudy\WWW\oa\Application\Home\Model\PerformanceModel.class.php 第 33 行.
+SQL: select p.*,e.truename,d.department,pc.product_name,t.type_name from `qp_performance` as p 
+LEFT JOIN `qp_employee` as e on p.employee_id = e.id LEFT JOIN 
+`qp_department` as d on p.department_id = d.id LEFT JOIN `qp_product_type` as t on p.product_type_id = t.id 
+LEFT JOIN `qp_product` as pc on p.product_id = pc.id where 1  order by p.id desc [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qp_department` [ RunTime:0.0037s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: where E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: orderby E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+SQL: select `id`,`department` from `qp_department`   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qp_product_type` [ RunTime:0.0033s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ProductTypeModel::productTypeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 67 and defined E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 21 行.
+SQL: select * from `qp_product_type`  where `status`='1'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-06-02T10:23:57+08:00 ] 127.0.0.1 /index.php/Home/Performance/departmentPerformance.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `qp_performance` [ RunTime:0.0055s ]
+SQL: select IFNULL(a.performance,0) as performance,d.department,d.id as department_id from (select sum(performance) as performance,department_id 
+from `qp_performance` where 1 group by department_id ) as a RIGHT JOIN `qp_department` as d on a.department_id = d.id where 1 [ RunTime:0.0205s ]
+SQL: SHOW COLUMNS FROM `qp_department` [ RunTime:0.0035s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 295 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 295 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: where E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: orderby E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+SQL: select `id`,`department` from `qp_department`   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qp_product_type` [ RunTime:0.0036s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ProductTypeModel::productTypeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 297 and defined E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 21 行.
+SQL: select * from `qp_product_type`  where `status`='1'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-06-02T10:23:58+08:00 ] 127.0.0.1 /index.php/Home/Performance/performanceList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `qp_performance` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PerformanceModel::getPerformanceList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 56 and defined E:\phpStudy\WWW\oa\Application\Home\Model\PerformanceModel.class.php 第 33 行.
+SQL: select p.*,e.truename,d.department,pc.product_name,t.type_name from `qp_performance` as p 
+LEFT JOIN `qp_employee` as e on p.employee_id = e.id LEFT JOIN 
+`qp_department` as d on p.department_id = d.id LEFT JOIN `qp_product_type` as t on p.product_type_id = t.id 
+LEFT JOIN `qp_product` as pc on p.product_id = pc.id where 1  order by p.id desc [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qp_department` [ RunTime:0.0033s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 62 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: where E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: orderby E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+SQL: select `id`,`department` from `qp_department`   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qp_product_type` [ RunTime:0.0035s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ProductTypeModel::productTypeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 67 and defined E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 21 行.
+SQL: select * from `qp_product_type`  where `status`='1'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2017-06-02T10:23:59+08:00 ] 127.0.0.1 /index.php/Home/Performance/addPerformance.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `qp_performance` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `qp_department` [ RunTime:0.0037s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 138 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DepartmentModel::getDepartmentList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 138 and defined E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: where E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: orderby E:\phpStudy\WWW\oa\Application\Home\Model\DepartmentModel.class.php 第 21 行.
+SQL: select `id`,`department` from `qp_department`   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qp_product_type` [ RunTime:0.0034s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ProductTypeModel::productTypeList(), called in E:\phpStudy\WWW\oa\Application\Home\Controller\PerformanceController.class.php on line 145 and defined E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: order E:\phpStudy\WWW\oa\Application\Home\Model\ProductTypeModel.class.php 第 21 行.
+SQL: select * from `qp_product_type`  where `status` = '1'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+

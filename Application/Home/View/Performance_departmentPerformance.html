@@ -83,7 +83,7 @@
             }
         }
     </script>
-    <script type="text/javascript" src="/Public/Admin/js/jeDate/jedate.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/jedate/jedate.js"></script>
 </head>
 
 

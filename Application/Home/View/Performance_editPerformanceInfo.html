@@ -11,7 +11,7 @@
             var department_id = $("#department_id").val();
             var employee_id = $("#c").val();
             var performance = $("#performance").val();
-            var add_time = $("#add_time").val();
+
             var compact_no = $("#compact_no").val();
             var compact_time = $("#compact_time").val();
             var client_name = $("#client_name").val();
@@ -25,8 +25,6 @@
                 layer.tips('请选择员工', '#c');
             }else if(performance == ''){
                 layer.tips('请填写业绩', '#performance');
-            }else if(add_time == ''){
-                layer.tips('请填写系统时间', '#add_time');
             }else if(compact_no == ''){
                 layer.tips('请填写合同编号', '#compact_no');
             }else if(compact_time == ''){
@@ -48,7 +46,7 @@
                     //提交的网址
                     url:"/Home/Performance/editPerformanceInfo",
                     //提交的数据
-                    data:{department_id:department_id,employee_id:employee_id,performance:performance,add_time:add_time,compact_no:compact_no,compact_time:compact_time,
+                    data:{department_id:department_id,employee_id:employee_id,performance:performance,compact_no:compact_no,compact_time:compact_time,
                         client_name:client_name,client_truename:client_truename,product_type_id:product_type_id,product_id:product_id,client_type:client_type,id:<?php echo $_GET['id'];?>},
                     //返回数据的格式
                     datatype: "json",//"xml", "html", "script", "json", "jsonp", "text".
@@ -155,7 +153,7 @@
             }
         }
     </script>
-    <script type="text/javascript" src="/Public/Admin/js/jeDate/jedate.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/jedate/jedate.js"></script>
 </head>
 
 <body>
@@ -181,7 +179,7 @@
             </select>
         </li>
         <li><label>业绩：</label><input type="text" name="performance" class="dfinput" id="performance" value="<{$info['performance']}>"/></li>
-        <li><label>系统时间：</label><input type="text" name="add_time" id="add_time" class="dfinput" value="<{$info['add_time']}>" onclick="jeDate({dateCell:'#add_time',isTime:true,format:'YYYY-MM-DD hh:mm:ss'})"/></li>
+
         <li><label>合同编号：</label><input type="text" name="compact_no" class="dfinput" id="compact_no" value="<{$info['compact_no']}>"/></li>
         <li><label>合同日期：</label><input type="text" name="compact_time" class="dfinput" id="compact_time" value="<{$info['compact_time']}>" onclick="jeDate({dateCell:'#compact_time',isTime:true,format:'YYYY-MM-DD hh:mm:ss'})"/></li>
         <li><label>客户名称：</label><input type="text" name="client_name" class="dfinput" id="client_name" value="<{$info['client_name']}>"/></li>

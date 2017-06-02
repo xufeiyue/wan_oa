@@ -76,7 +76,7 @@ class performanceController extends BaseController
             $department_id = I("post.department_id");
             $employee_id = I("post.employee_id");
             $performance = I("post.performance");
-            $add_time = I("post.add_time");
+            $add_time = date("Y-m-d H:i:s",time());
             $compact_no = I("post.compact_no");
             $compact_time = I("post.compact_time");
             $client_name = I("post.client_name");
@@ -97,9 +97,7 @@ class performanceController extends BaseController
             }elseif ($performance<0){
                 $this->ajaxReturn(array('code'=>600,'msg'=>'业绩不能为负数'));
             }
-            if($add_time == ''){
-                $this->ajaxReturn(array('code'=>700,'msg'=>'请填写系统时间'));
-            }
+
             if($compact_no == ''){
                 $this->ajaxReturn(array('code'=>800,'msg'=>'请填写合同编号'));
             }
@@ -155,7 +153,7 @@ class performanceController extends BaseController
             $department_id = I("post.department_id");
             $employee_id = I("post.employee_id");
             $performance = I("post.performance");
-            $add_time = I("post.add_time");
+            $add_time = date("Y-m-d H:i:s",time());
             $compact_no = I("post.compact_no");
             $compact_time = I("post.compact_time");
             $client_name = I("post.client_name");
@@ -177,9 +175,7 @@ class performanceController extends BaseController
             }elseif ($performance<0){
                 $this->ajaxReturn(array('code'=>600,'msg'=>'业绩不能为负数'));
             }
-            if($add_time == ''){
-                $this->ajaxReturn(array('code'=>700,'msg'=>'请填写系统时间'));
-            }
+
             if($compact_no == ''){
                 $this->ajaxReturn(array('code'=>800,'msg'=>'请填写合同编号'));
             }
