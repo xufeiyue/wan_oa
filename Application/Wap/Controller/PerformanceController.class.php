@@ -29,7 +29,7 @@ class performanceController extends BaseController
          */
         if($type==2){
             $sql = "select a.performance,d.truename from `qp_employee` as d LEFT JOIN 
-(select SUM(`performance`) as performance,employee_id from qp_performance where to_days(add_time) = to_days(now()) 
+(select SUM(`performance`) as performance,employee_id from qp_performance where to_days(compact_time) = to_days(now()) 
 GROUP BY employee_id) as a on d.id = a.employee_id order by a.performance desc";
             $list = M()->query($sql);
             $str = "";
@@ -37,19 +37,19 @@ GROUP BY employee_id) as a on d.id = a.employee_id order by a.performance desc";
             $count = count($list);
             foreach($list as $k=>$v){
                 if($count-1>$k){
-                    $yeji = $v['performance']/1000;
+                    $yeji = $v['performance']/10000;
                     $str .="'{$v['truename']}',";
                     $str1 .= "{$yeji},";
                 }elseif ($count-1==$k){
-                    $yeji = $v['performance']/1000;
+                    $yeji = $v['performance']/10000;
                     $str .="'{$v['truename']}'";
                     $str1 .= "{$yeji}";
                 }
             }
-            $danwei = "千";
+            $danwei = "万";
         }else{
             $sql = "select a.performance,d.department from `qp_department` as d LEFT JOIN 
-(select SUM(`performance`) as performance,department_id from qp_performance where to_days(add_time) = to_days(now())
+(select SUM(`performance`) as performance,department_id from qp_performance where to_days(compact_time) = to_days(now())
 GROUP BY department_id) as a on d.id = a.department_id order by a.performance desc";
             $list = M()->query($sql);
             $str = "";
@@ -103,12 +103,12 @@ GROUP BY department_id) as a on d.id = a.department_id order by a.performance de
                 $i_month_begin = $i_month."-01";
 
                 $sql = "select a.performance,d.truename from `qp_employee` as d LEFT JOIN 
-(select SUM(`performance`) as performance,employee_id from qp_performance where add_time > '$i_month_begin' and add_time < '$i_month_end'
+(select SUM(`performance`) as performance,employee_id from qp_performance where compact_time > '$i_month_begin' and compact_time < '$i_month_end'
 GROUP BY employee_id) as a on d.id = a.employee_id order by a.performance desc";
 
             }else{
                 $sql = "select a.performance,d.truename from `qp_employee` as d LEFT JOIN 
-(select SUM(`performance`) as performance,employee_id from qp_performance where DATE_FORMAT(add_time, '%Y%m') = DATE_FORMAT(CURDATE(), '%Y%m')
+(select SUM(`performance`) as performance,employee_id from qp_performance where DATE_FORMAT(compact_time, '%Y%m') = DATE_FORMAT(CURDATE(), '%Y%m')
 GROUP BY employee_id) as a on d.id = a.employee_id order by a.performance desc";
             }
 
@@ -119,18 +119,18 @@ GROUP BY employee_id) as a on d.id = a.employee_id order by a.performance desc";
             if(!empty($list)){
                 foreach($list as $k=>$v){
                     if($count-1>$k){
-                        $yeji = $v['performance']/1000;
+                        $yeji = $v['performance']/10000;
                         $str .="'{$v['truename']}',";
                         $str1 .= "{$yeji},";
                     }elseif ($count-1==$k){
-                        $yeji = $v['performance']/1000;
+                        $yeji = $v['performance']/10000;
                         $str .="'{$v['truename']}'";
                         $str1 .= "{$yeji}";
                     }
                 }
             }
 
-            $danwei = "千";
+            $danwei = "万";
         }else{
 
             if(I("post.months") !="")
@@ -149,12 +149,12 @@ GROUP BY employee_id) as a on d.id = a.employee_id order by a.performance desc";
                 $i_month_end = $year1.'-'.$month1.'-'.$day_end;
                 $i_month_begin = $i_month."-01";
                 $sql = "select a.performance,d.department from `qp_department` as d LEFT JOIN 
-(select SUM(`performance`) as performance,department_id from qp_performance where add_time > '$i_month_begin' and add_time < '$i_month_end'
+(select SUM(`performance`) as performance,department_id from qp_performance where compact_time > '$i_month_begin' and compact_time < '$i_month_end'
 GROUP BY department_id) as a on d.id = a.department_id order by a.performance desc";
 
             }else{
                 $sql = "select a.performance,d.department from `qp_department` as d LEFT JOIN 
-(select SUM(`performance`) as performance,department_id from qp_performance where DATE_FORMAT(add_time, '%Y%m') = DATE_FORMAT(CURDATE(), '%Y%m')
+(select SUM(`performance`) as performance,department_id from qp_performance where DATE_FORMAT(compact_time, '%Y%m') = DATE_FORMAT(CURDATE(), '%Y%m')
 GROUP BY department_id) as a on d.id = a.department_id order by a.performance desc";
             }
 
@@ -229,12 +229,12 @@ GROUP BY department_id) as a on d.id = a.department_id order by a.performance de
                 $i_month_end = $i_month."-12-31";
 
                 $sql = "select a.performance,d.truename from `qp_employee` as d LEFT JOIN 
-(select SUM(`performance`) as performance,employee_id from qp_performance where add_time > '$i_month_begin' and add_time < '$i_month_end'
+(select SUM(`performance`) as performance,employee_id from qp_performance where compact_time > '$i_month_begin' and compact_time < '$i_month_end'
 GROUP BY employee_id) as a on d.id = a.employee_id order by a.performance desc";
 
             }else{
                 $sql = "select a.performance,d.truename from `qp_employee` as d LEFT JOIN 
-(select SUM(`performance`) as performance,employee_id from qp_performance where YEAR(add_time) = YEAR(now()) 
+(select SUM(`performance`) as performance,employee_id from qp_performance where YEAR(compact_time) = YEAR(now()) 
 GROUP BY employee_id) as a on d.id = a.employee_id order by a.performance desc";
             }
 
@@ -245,18 +245,18 @@ GROUP BY employee_id) as a on d.id = a.employee_id order by a.performance desc";
             if(!empty($list)){
                 foreach($list as $k=>$v){
                     if($count-1>$k){
-                        $yeji = $v['performance']/1000;
+                        $yeji = $v['performance']/10000;
                         $str .="'{$v['truename']}',";
                         $str1 .= "{$yeji},";
                     }elseif ($count-1==$k){
-                        $yeji = $v['performance']/1000;
+                        $yeji = $v['performance']/10000;
                         $str .="'{$v['truename']}'";
                         $str1 .= "{$yeji}";
                     }
                 }
             }
 
-            $danwei = "千";
+            $danwei = "万";
         }else{
             if(I("post.months") !="")
             {
@@ -268,12 +268,12 @@ GROUP BY employee_id) as a on d.id = a.employee_id order by a.performance desc";
                 $i_month_end = $i_month."-12-31";
 
                 $sql = "select a.performance,d.department from `qp_department` as d LEFT JOIN 
-(select SUM(`performance`) as performance,department_id from qp_performance where add_time > '$i_month_begin' and add_time < '$i_month_end'
+(select SUM(`performance`) as performance,department_id from qp_performance where compact_time > '$i_month_begin' and compact_time < '$i_month_end'
 GROUP BY department_id) as a on d.id = a.department_id order by a.performance desc";
 
             }else{
                 $sql = "select a.performance,d.department from `qp_department` as d LEFT JOIN 
-(select SUM(`performance`) as performance,department_id from qp_performance where YEAR(add_time) = YEAR(now()) 
+(select SUM(`performance`) as performance,department_id from qp_performance where YEAR(compact_time) = YEAR(now()) 
 GROUP BY department_id) as a on d.id = a.department_id order by a.performance desc";
             }
 

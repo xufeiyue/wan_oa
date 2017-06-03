@@ -185,6 +185,7 @@
         }
     </script>
     <script type="text/javascript" src="/Public/Admin/js/jedate/jedate.js"></script>
+
 </head>
 
 
@@ -199,7 +200,7 @@
     </ul>
 </div>
 
-<div class="rightinfo">
+<div class="rightinfo" style="font-size: 9pt;">
 
     <div class="tools">
         <form action="#" name="form1" method="post">
@@ -238,9 +239,12 @@
             <th>部门名称</th>
             <th>系统时间</th>
             <th>合同编号</th>
-            <th>合同日期</th>
+            <th>签单日期</th>
             <th>客户名称</th>
-            <th>客户联系人</th>
+            <th>企业名称</th>
+            <th>企业地址</th>
+            <th>指定联系人</th>
+            <th>联系方式</th>
             <th>产品类别</th>
             <th>产品名称</th>
             <th>服务性质</th>
@@ -256,7 +260,10 @@
                 <td><?php echo ($vo['compact_no']); ?></td>
                 <td><?php echo ($vo['compact_time']); ?></td>
                 <td><?php echo ($vo['client_name']); ?></td>
+                <td><?php echo ($vo['company_name']); ?></td>
+                <td><?php echo ($vo['company_address']); ?></td>
                 <td><?php echo ($vo['client_truename']); ?></td>
+                <td><?php echo ($vo['phone']); ?></td>
                 <td><?php echo ($vo['type_name']); ?></td>
                 <td><?php echo ($vo['product_name']); ?></td>
                 <td><?php echo ($vo['client_type']); ?></td>

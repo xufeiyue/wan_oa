@@ -11,11 +11,13 @@
             var department_id = $("#department_id").val();
             var employee_id = $("#c").val();
             var performance = $("#performance").val();
-            var add_time = $("#add_time").val();
             var compact_no = $("#compact_no").val();
             var compact_time = $("#compact_time").val();
+            var company_name = $("#company_name").val();
+            var company_address = $("#company_address").val();
             var client_name = $("#client_name").val();
             var client_truename = $("#client_truename").val();
+            var phone = $("#phone").val();
             var product_type_id = $("#type_id").val();
             var product_id = $("#product_id").val();
             var client_type = $('#wrap input[name="client_type"]:checked ').val();
@@ -25,16 +27,20 @@
                 layer.tips('请选择员工', '#c');
             }else if(performance == ''){
                 layer.tips('请填写业绩', '#performance');
-            }else if(add_time == ''){
-                layer.tips('请填写系统时间', '#add_time');
             }else if(compact_no == ''){
                 layer.tips('请填写合同编号', '#compact_no');
             }else if(compact_time == ''){
-                layer.tips('请填写合同日期', '#compact_time');
+                layer.tips('请填写签单日期', '#compact_time');
             }else if(client_name == ''){
                 layer.tips('请填写客户名称', '#client_name');
+            }else if(client_name == ''){
+                layer.tips('请填写企业名称', '#company_name');
+            }else if(client_name == ''){
+                layer.tips('请填写企业地址', '#company_address');
             }else if(client_truename == ''){
-                layer.tips('请填写客户联系人', '#client_truename');
+                layer.tips('请填写指定联系人', '#client_truename');
+            }else if(client_truename == ''){
+                layer.tips('请填写联系方式', '#phone');
             }else if(product_type_id == ''){
                 layer.tips('请填写产品类别', '#product_type_id');
             }else if(product_id == ''){
@@ -48,7 +54,7 @@
                     //提交的网址
                     url:"/Home/Performance/editPerformanceInfo",
                     //提交的数据
-                    data:{department_id:department_id,employee_id:employee_id,performance:performance,add_time:add_time,compact_no:compact_no,compact_time:compact_time,
+                    data:{department_id:department_id,employee_id:employee_id,performance:performance,compact_no:compact_no,compact_time:compact_time,company_name:company_name,company_address:company_address,phone:phone,
                         client_name:client_name,client_truename:client_truename,product_type_id:product_type_id,product_id:product_id,client_type:client_type,id:<?php echo $_GET['id'];?>},
                     //返回数据的格式
                     datatype: "json",//"xml", "html", "script", "json", "jsonp", "text".
@@ -177,11 +183,14 @@
             </select>
         </li>
         <li><label>业绩：</label><input type="text" name="performance" class="dfinput" id="performance" value="<?php echo ($info['performance']); ?>"/></li>
-        <li><label>系统时间：</label><input type="text" name="add_time" id="add_time" class="dfinput" value="<?php echo ($info['add_time']); ?>" onclick="jeDate({dateCell:'#add_time',isTime:true,format:'YYYY-MM-DD hh:mm:ss'})"/></li>
+
         <li><label>合同编号：</label><input type="text" name="compact_no" class="dfinput" id="compact_no" value="<?php echo ($info['compact_no']); ?>"/></li>
-        <li><label>合同日期：</label><input type="text" name="compact_time" class="dfinput" id="compact_time" value="<?php echo ($info['compact_time']); ?>" onclick="jeDate({dateCell:'#compact_time',isTime:true,format:'YYYY-MM-DD hh:mm:ss'})"/></li>
+        <li><label>签单日期：</label><input type="text" name="compact_time" class="dfinput" id="compact_time" value="<?php echo ($info['compact_time']); ?>" onclick="jeDate({dateCell:'#compact_time',isTime:true,format:'YYYY-MM-DD hh:mm:ss'})"/></li>
         <li><label>客户名称：</label><input type="text" name="client_name" class="dfinput" id="client_name" value="<?php echo ($info['client_name']); ?>"/></li>
-        <li><label>客户联系人：</label><input type="text" name="client_truename" class="dfinput" id="client_truename" value="<?php echo ($info['client_truename']); ?>"/></li>
+        <li><label>企业名称：</label><input type="text" name="company_name" class="dfinput" id="company_name" value="<?php echo ($info['company_name']); ?>"/></li>
+        <li><label>企业地址：</label><input type="text" name="company_address" class="dfinput" id="company_address" value="<?php echo ($info['company_address']); ?>"/></li>
+        <li><label>指定联系人：</label><input type="text" name="client_truename" class="dfinput" id="client_truename" value="<?php echo ($info['client_truename']); ?>"/></li>
+        <li><label>联系方式：</label><input type="text" name="phone" class="dfinput" id="phone" value="<?php echo ($info['phone']); ?>"/></li>
         <li><label>产品类型：</label>
             <select name="type_id" id="type_id" class="dfinput" onchange="getProductList(this.value);">
                 <option value="0">请选择类别</option>
@@ -198,8 +207,8 @@
         </li>
         <li><label>服务性质：</label>
             <div id="wrap">
-                新客户：<input type="radio" name="client_type"  value="新客户" <?php if($info['client_type'] == '新客户'): ?>checked='checked'<?php endif; ?>/>
-                老客户：<input type="radio" name="client_type"  value="老客户" <?php if($info['client_type'] == '老客户'): ?>checked='checked'<?php endif; ?>/>
+                <input type="radio" name="client_type"  value="新客户" <?php if($info['client_type'] == '新客户'): ?>checked='checked'<?php endif; ?>/>新客户
+                <input type="radio" name="client_type"  value="老客户" <?php if($info['client_type'] == '老客户'): ?>checked='checked'<?php endif; ?>/>老客户
             </div>
         </li>
         <li><label>&nbsp;</label><input name="" type="button" class="btn" value="确认保存" onclick="sub();"/></li>

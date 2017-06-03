@@ -98,7 +98,7 @@
     </ul>
 </div>
 
-<div class="rightinfo">
+<div class="rightinfo" style="font-size: 9pt">
 
     <div class="tools">
         <form action="#" name="form1" method="post">

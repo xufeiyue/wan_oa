@@ -51,7 +51,7 @@ class performanceController extends BaseController
             $where.= " and p.product_id = '$product_id'";
         }
         if($begin_time!="" && $end_time!=""){
-            $where.= " and p.add_time >'$begin_time' and p.add_time<'$end_time'";
+            $where.= " and p.compact_time >'$begin_time' and p.compact_time<'$end_time'";
         }
         $res = $this->performanceModel->getPerformanceList($where);
         $count = count($res);
@@ -84,6 +84,9 @@ class performanceController extends BaseController
             $product_type_id = I("post.product_type_id");
             $product_id = I("post.product_id");
             $client_type = I("post.client_type");
+            $company_name = I("post.company_name");
+            $company_address = I("post.company_address");
+            $phone = I("post.phone");
             if($department_id == 0){
                 $this->ajaxReturn(array('code'=>100,'msg'=>'请选择部门'));
             }
@@ -119,8 +122,18 @@ class performanceController extends BaseController
             if($client_type == ''){
                 $this->ajaxReturn(array('code'=>1400,'msg'=>'请填写服务性质'));
             }
-            $datas = "$department_id,$employee_id,$performance,'$add_time','$compact_no','$compact_time','$client_name',
-            '$client_truename',$product_type_id,$product_id,'$client_type'";
+            if($company_name == ''){
+                $this->ajaxReturn(array('code'=>1500,'msg'=>'请填写企业名称'));
+            }
+            if($company_address == ''){
+                $this->ajaxReturn(array('code'=>1600,'msg'=>'请填写企业地址'));
+            }
+            if($phone == ''){
+                $this->ajaxReturn(array('code'=>1700,'msg'=>'联系方式'));
+            }
+            $datas = "$department_id,$employee_id,$performance,'$add_time','$compact_no','$compact_time','$company_name',
+            '$company_address','$client_name','$client_truename','$phone',$product_type_id,$product_id,'$client_type'";
+
             $res = $this->performanceModel->addPerformance($datas);
             if($res === false || $res == 0){
                 $this->ajaxReturn(array('code'=>800,'msg'=>'添加失败'));
@@ -162,6 +175,9 @@ class performanceController extends BaseController
             $product_id = I("post.product_id");
             $client_type = I("post.client_type");
             $id = I("post.id");
+            $company_name = I("post.company_name");
+            $company_address = I("post.company_address");
+            $phone = I("post.phone");
             if($department_id == 0){
                 $this->ajaxReturn(array('code'=>100,'msg'=>'请选择部门'));
             }
@@ -197,8 +213,18 @@ class performanceController extends BaseController
             if($client_type == ''){
                 $this->ajaxReturn(array('code'=>1400,'msg'=>'请填写服务性质'));
             }
+            if($company_name == ''){
+                $this->ajaxReturn(array('code'=>1500,'msg'=>'请填写企业名称'));
+            }
+            if($company_address == ''){
+                $this->ajaxReturn(array('code'=>1600,'msg'=>'请填写企业地址'));
+            }
+            if($phone == ''){
+                $this->ajaxReturn(array('code'=>1700,'msg'=>'联系方式'));
+            }
             $datas = " `department_id` = $department_id,`employee_id` = $employee_id,`performance`=$performance,`add_time`='$add_time',
-            `compact_no` = '$compact_no',`compact_time` = '$compact_time',`client_name`='$client_name',`client_truename`='$client_truename',
+            `compact_no` = '$compact_no',`compact_time` = '$compact_time',`company_name` = '$company_name',
+            `company_address` = '$company_address',`client_name`='$client_name',`client_truename`='$client_truename',`phone`='$phone',
             `product_type_id` = $product_type_id,`product_id` = '$product_id',`client_type` = '$client_type'";
             $where = " where id = $id";
             $res = $this->performanceModel->updatePerformanceInfo($where,$datas);
@@ -279,7 +305,7 @@ class performanceController extends BaseController
             $where.= " and `product_type_id` = $product_type_id";
         }
         if($begin_time !='' && $end_time !=''){
-            $where.= " and `add_time`>'$begin_time' and `add_time` < '$end_time'";
+            $where.= " and `compact_time`>'$begin_time' and `compact_time` < '$end_time'";
         }
 
         $res = $this->performanceModel->getDepartmentPerformance($where,$where1);

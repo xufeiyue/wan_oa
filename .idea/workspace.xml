@@ -4,6 +4,8 @@
     <list default="true" id="b9d7151f-f09c-4140-b11c-25dd997b1b79" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" afterPath="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Index_rightView.html" afterPath="$PROJECT_DIR$/Application/Home/View/Index_rightView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Performance_addPerformance.html" afterPath="$PROJECT_DIR$/Application/Home/View/Performance_addPerformance.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Performance_departmentPerformance.html" afterPath="$PROJECT_DIR$/Application/Home/View/Performance_departmentPerformance.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html" afterPath="$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html" />
@@ -12,7 +14,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/45852edf3e8bdad4f76cff963716e3cd.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/45852edf3e8bdad4f76cff963716e3cd.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/5057254b05693f1c7e7a2023f069e76b.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/5057254b05693f1c7e7a2023f069e76b.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/5259356c5cc46a96083264519f79f374.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/5259356c5cc46a96083264519f79f374.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/17_06_02.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/17_06_02.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/ef3f75ba0b108994c7ea81eac000781b.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/ef3f75ba0b108994c7ea81eac000781b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Wap/fe233b39051fb871b14dd5d29cc2f1f9.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Wap/fe233b39051fb871b14dd5d29cc2f1f9.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Wap/Controller/PerformanceController.class.php" afterPath="$PROJECT_DIR$/Application/Wap/Controller/PerformanceController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Wap/View/Performance_dayPerformanceList.html" afterPath="$PROJECT_DIR$/Application/Wap/View/Performance_dayPerformanceList.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,11 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PerformanceController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PerformanceController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2934">
-              <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="37" />
+            <state relative-caret-position="468">
+              <caret line="136" column="67" lean-forward="true" selection-start-line="136" selection-start-column="67" selection-end-line="136" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -76,28 +81,18 @@
       <file leaf-file-name="Performance_addPerformance.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_addPerformance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="48" column="102" lean-forward="false" selection-start-line="48" selection-start-column="102" selection-end-line="48" selection-end-column="102" />
+            <state relative-caret-position="270">
+              <caret line="169" column="21" lean-forward="false" selection-start-line="169" selection-start-column="21" selection-end-line="169" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index_leftView.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index_leftView.html">
+      <file leaf-file-name="Employee_addEmployee.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Employee_addEmployee.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="46" column="116" lean-forward="false" selection-start-line="46" selection-start-column="116" selection-end-line="46" selection-end-column="116" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductTypeModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/Model/ProductTypeModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
-              <caret line="73" column="34" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="34" />
+            <state relative-caret-position="540">
+              <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -106,8 +101,60 @@
       <file leaf-file-name="Performance_performanceList.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3672">
-              <caret line="136" column="31" lean-forward="false" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="31" />
+            <state relative-caret-position="432">
+              <caret line="202" column="44" lean-forward="false" selection-start-line="202" selection-start-column="44" selection-end-line="202" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Performance_departmentPerformance.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_departmentPerformance.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jedate.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/Admin/js/jedate/skin/jedate.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="464" lean-forward="true" selection-start-line="3" selection-start-column="448" selection-end-line="3" selection-end-column="464" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gray.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/Admin/js/jedate/skin/gray.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="464" lean-forward="false" selection-start-line="3" selection-start-column="448" selection-end-line="3" selection-end-column="464" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="red.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/Admin/js/jedate/skin/red.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="3" column="464" lean-forward="true" selection-start-line="3" selection-start-column="448" selection-end-line="3" selection-end-column="464" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="green.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/Admin/js/jedate/skin/green.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -116,36 +163,8 @@
       <file leaf-file-name="Performance_editPerformanceInfo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PerformanceModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="36" column="88" lean-forward="true" selection-start-line="36" selection-start-column="88" selection-end-line="36" selection-end-column="88" />
-              <folding>
-                <marker date="1496348080361" expanded="true" signature="321:529" ph="insert into `qp_performance`... " />
-                <marker date="1496348080361" expanded="true" signature="763:1113" ph="select p.*,e... qp_performance" />
-                <marker date="1496348080361" expanded="true" signature="1320:1358" ph="select p.* f... qp_performance" />
-                <marker date="1496348080361" expanded="true" signature="1628:1663" ph="update `qp_p... " />
-                <marker date="1496348080361" expanded="true" signature="1862:1897" ph="delete from " />
-                <marker date="1496348080361" expanded="true" signature="2085:2355" ph="select IFNUL... sum" />
-                <marker date="1496348080361" expanded="true" signature="2172:2283" ph="select sum(p... qp_performance" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="2" />
+            <state relative-caret-position="738">
+              <caret line="218" column="141" lean-forward="false" selection-start-line="218" selection-start-column="141" selection-end-line="218" selection-end-column="141" />
               <folding />
             </state>
           </provider>
@@ -162,23 +181,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>DEFAULT_AJAX_RETURN</find>
-      <find>getDepartmentList</find>
-      <find>getDepartmentInfo</find>
-      <find>excute</find>
-      <find>execute</find>
-      <find>updateDepartmentInfo</find>
-      <find>deleteDepartment</find>
-      <find>deleteDepartmentInfo</find>
-      <find>updateEmployeeInfo</find>
-      <find>employeeList</find>
       <find>getAdminCount</find>
       <find>tspan</find>
       <find>图表标题</find>
       <find>/Public/Wap/main/images/fanhui.png</find>
       <find>productTypeList</find>
       <find>delProductType</find>
-      <find>addPerformance</find>
       <find>product_id</find>
       <find>getPerformanceInfo</find>
       <find>getPerformanceList</find>
@@ -187,8 +195,26 @@
       <find>jedate/jeate.js</find>
       <find>jedate/jedate.js</find>
       <find>jeDate/jedate.js</find>
+      <find>客户联系人</find>
+      <find>compnay_address</find>
+      <find>合同日期</find>
+      <find>客户</find>
+      <find>c</find>
+      <find>楚风</find>
+      <find>楚</find>
+      <find>楚丰</find>
+      <find>getDepartmentPerformance</find>
       <find>add_time</find>
+      <find>千</find>
+      <find>$yeji</find>
+      <find>addPerformance</find>
+      <find>新客户</find>
+      <find>font-size</find>
+      <find>jedate</find>
     </findStrings>
+    <replaceStrings>
+      <replace>company_address</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -196,13 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Application/Home/View/Index_left.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index_right.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index_topView.html" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Think/Page.class.php" />
-        <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index_mainView.html" />
-        <option value="$PROJECT_DIR$/Application/Runtime/Logs/Home/17_05_19.log" />
         <option value="$PROJECT_DIR$/Application/Home/Model/DepartmentModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/View/Department_editDepartment.html" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/DepartmentController.class.php" />
@@ -224,7 +243,6 @@
         <option value="$PROJECT_DIR$/Application/Home/Controller/BaseController.class.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Application/Wap/View/Index_mainView.html" />
-        <option value="$PROJECT_DIR$/Application/Wap/View/Performance_dayPerformanceList.html" />
         <option value="$PROJECT_DIR$/Application/Home/Model/ProductModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/View/Department_addDepartment.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Product_addProductType.html" />
@@ -238,15 +256,23 @@
         <option value="$PROJECT_DIR$/Application/Home/View/Index_leftView.html" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/ProductController.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Model/EmployeeModel.class.php" />
-        <option value="$PROJECT_DIR$/Application/Wap/Controller/PerformanceController.class.php" />
         <option value="$PROJECT_DIR$/ThinkPHP/Conf/convention.php" />
         <option value="$PROJECT_DIR$/Application/Home/Model/ProductTypeModel.class.php" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html" />
-        <option value="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Common/Conf/config.php" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Performance_addPerformance.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index_rightView.html" />
+        <option value="$PROJECT_DIR$/Application/Wap/View/Performance_dayPerformanceList.html" />
+        <option value="$PROJECT_DIR$/Application/Runtime/Cache/Wap/fe233b39051fb871b14dd5d29cc2f1f9.php" />
+        <option value="$PROJECT_DIR$/Application/Wap/Controller/PerformanceController.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html" />
+        <option value="$PROJECT_DIR$/Public/Admin/js/jedate/skin/jedate.css" />
+        <option value="$PROJECT_DIR$/Public/Admin/js/jedate/skin/gray.css" />
+        <option value="$PROJECT_DIR$/Public/Admin/js/jedate/skin/red.css" />
+        <option value="$PROJECT_DIR$/Public/Admin/js/jedate/skin/green.css" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Performance_addPerformance.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Performance_departmentPerformance.html" />
       </list>
     </option>
   </component>
@@ -260,8 +286,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1924" />
-    <option name="height" value="1056" />
+    <option name="width" value="1040" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -295,6 +321,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -364,7 +391,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,12 +518,13 @@
       <workItem from="1496294574215" duration="1033000" />
       <workItem from="1496296808565" duration="12223000" />
       <workItem from="1496312554445" duration="2319000" />
-      <workItem from="1496363571895" duration="1780000" />
+      <workItem from="1496363571895" duration="2029000" />
+      <workItem from="1496454159960" duration="7220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119127000" />
+    <option name="totallyTimeSpent" value="126596000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -509,10 +536,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24839056" sideWeight="0.496208" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.477551" sideWeight="0.496208" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09850905" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -543,38 +570,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/352d11fc/3a5c3571-a4a6-4564-a43c-99976d8ec2c6/oa.qp_admin" />
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Model.class.php" />
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index_mainView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index_rightView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="199" column="42" lean-forward="false" selection-start-line="199" selection-start-column="42" selection-end-line="199" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Runtime/Logs/Home/17_05_19.log" />
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/DepartmentController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="34" column="25" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/352d11fc/3a5c3571-a4a6-4564-a43c-99976d8ec2c6/oa.qp_employee" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="864" column="0" lean-forward="false" selection-start-line="864" selection-start-column="0" selection-end-line="864" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Employee_employeeList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -635,25 +630,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Runtime/Logs/Wap/17_05_21.log" />
-    <entry file="file://$PROJECT_DIR$/Application/Wap/View/Performance_dayPerformanceList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="39" column="60" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Department_DepartmentList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="85" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -696,13 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
           <caret line="1306" column="86" lean-forward="true" selection-start-line="1306" selection-start-column="86" selection-end-line="1306" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Employee_addEmployee.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="54" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -769,13 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Wap/Controller/PerformanceController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Wap/View/Index_mainView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -797,46 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Model/ProductTypeModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="73" column="34" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index_leftView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="46" column="116" lean-forward="false" selection-start-line="46" selection-start-column="116" selection-end-line="46" selection-end-column="116" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3672">
-          <caret line="136" column="31" lean-forward="false" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="36" column="88" lean-forward="true" selection-start-line="36" selection-start-column="88" selection-end-line="36" selection-end-column="88" />
-          <folding>
-            <marker date="1496348080361" expanded="true" signature="321:529" ph="insert into `qp_performance`... " />
-            <marker date="1496348080361" expanded="true" signature="763:1113" ph="select p.*,e... qp_performance" />
-            <marker date="1496348080361" expanded="true" signature="1320:1358" ph="select p.* f... qp_performance" />
-            <marker date="1496348080361" expanded="true" signature="1628:1663" ph="update `qp_p... " />
-            <marker date="1496348080361" expanded="true" signature="1862:1897" ph="delete from " />
-            <marker date="1496348080361" expanded="true" signature="2085:2355" ph="select IFNUL... sum" />
-            <marker date="1496348080361" expanded="true" signature="2172:2283" ph="select sum(p... qp_performance" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -845,27 +772,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_addPerformance.html">
+    <entry file="file://$PROJECT_DIR$/Application/Runtime/Cache/Wap/fe233b39051fb871b14dd5d29cc2f1f9.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="48" column="102" lean-forward="false" selection-start-line="48" selection-start-column="102" selection-end-line="48" selection-end-column="102" />
+        <state relative-caret-position="268">
+          <caret line="110" column="21" lean-forward="true" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index_leftView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="46" column="116" lean-forward="false" selection-start-line="46" selection-start-column="116" selection-end-line="46" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index_rightView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/ProductTypeModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="73" column="34" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Wap/View/Performance_dayPerformanceList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-436">
+          <caret line="125" column="11" lean-forward="false" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Department_DepartmentList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="131" column="14" lean-forward="false" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Wap/Controller/PerformanceController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1866">
+          <caret line="251" column="55" lean-forward="false" selection-start-line="251" selection-start-column="55" selection-end-line="251" selection-end-column="55" />
+          <folding>
+            <marker date="1496457641024" expanded="true" signature="566:831" ph="select a.per... qp_employee" />
+            <marker date="1496457641024" expanded="true" signature="634:773" ph="select SUM(`... qp_performance" />
+            <marker date="1496457641024" expanded="true" signature="1445:1719" ph="select a.per... qp_department" />
+            <marker date="1496457641024" expanded="true" signature="1517:1659" ph="select SUM(`... qp_performance" />
+            <marker date="1496457641024" expanded="true" signature="3123:3414" ph="select a.per... qp_employee" />
+            <marker date="1496457641024" expanded="true" signature="3191:3356" ph="select SUM(`... qp_performance" />
+            <marker date="1496457641024" expanded="true" signature="3461:3753" ph="select a.per... qp_employee" />
+            <marker date="1496457641024" expanded="true" signature="3529:3695" ph="select SUM(`... qp_performance" />
+            <marker date="1496457641024" expanded="true" signature="4871:5172" ph="select a.per... qp_department" />
+            <marker date="1496457641024" expanded="true" signature="4943:5112" ph="select SUM(`... qp_performance" />
+            <marker date="1496457641024" expanded="true" signature="5219:5521" ph="select a.per... qp_department" />
+            <marker date="1496457641024" expanded="true" signature="5291:5461" ph="select SUM(`... qp_performance" />
+            <marker date="1496457641024" expanded="true" signature="7614:7905" ph="select a.per... qp_employee" />
+            <marker date="1496457641024" expanded="true" signature="7682:7847" ph="select SUM(`... qp_performance" />
+            <marker date="1496457641024" expanded="true" signature="7952:8211" ph="select a.per... qp_employee" />
+            <marker date="1496457641024" expanded="true" signature="8020:8153" ph="select SUM(`... qp_performance" />
+            <marker date="1496457641024" expanded="true" signature="9137:9438" ph="select a.per... qp_department" />
+            <marker date="1496457641024" expanded="true" signature="9209:9378" ph="select SUM(`... qp_performance" />
+            <marker date="1496457641024" expanded="true" signature="9485:9754" ph="select a.per... qp_department" />
+            <marker date="1496457641024" expanded="true" signature="9557:9694" ph="select SUM(`... qp_performance" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Wap/View/Performance_addPerformance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/PerformanceModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <marker date="1496459415019" expanded="true" signature="321:571" ph="insert into `qp_performance`... " />
+            <marker date="1496459415019" expanded="true" signature="804:1154" ph="select p.*,e... qp_performance" />
+            <marker date="1496459415019" expanded="true" signature="1335:1373" ph="select p.* f... qp_performance" />
+            <marker date="1496459415019" expanded="true" signature="1643:1678" ph="update `qp_p... " />
+            <marker date="1496459415019" expanded="true" signature="1877:1912" ph="delete from " />
+            <marker date="1496459415019" expanded="true" signature="2100:2370" ph="select IFNUL... sum" />
+            <marker date="1496459415019" expanded="true" signature="2187:2298" ph="select sum(p... qp_performance" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Employee_addEmployee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_editPerformanceInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="738">
+          <caret line="218" column="141" lean-forward="false" selection-start-line="218" selection-start-column="141" selection-end-line="218" selection-end-column="141" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/PerformanceController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2934">
-          <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="37" />
+        <state relative-caret-position="468">
+          <caret line="136" column="67" lean-forward="true" selection-start-line="136" selection-start-column="67" selection-end-line="136" selection-end-column="67" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Admin/js/jedate/skin/jedate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="464" lean-forward="true" selection-start-line="3" selection-start-column="448" selection-end-line="3" selection-end-column="464" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Admin/js/jedate/skin/gray.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="464" lean-forward="false" selection-start-line="3" selection-start-column="448" selection-end-line="3" selection-end-column="464" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Admin/js/jedate/skin/red.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="3" column="464" lean-forward="true" selection-start-line="3" selection-start-column="448" selection-end-line="3" selection-end-column="464" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Admin/js/jedate/skin/green.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_addPerformance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="169" column="21" lean-forward="false" selection-start-line="169" selection-start-column="21" selection-end-line="169" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_performanceList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="202" column="44" lean-forward="false" selection-start-line="202" selection-start-column="44" selection-end-line="202" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Performance_departmentPerformance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

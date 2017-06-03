@@ -17,10 +17,10 @@ class PerformanceModel extends Model
      * @return false|int
      */
     public function addPerformance($datas){
-        $sql = "insert into `qp_performance` (`department_id`,`employee_id`,`performance`,`add_time`,`compact_no`,`compact_time`,
-`client_name`,`client_truename`,`product_type_id`,`product_id`,`client_type`) VALUES 
+        $sql = "insert into `qp_performance` (`department_id`,`employee_id`,`performance`,`add_time`,`compact_no`,
+`compact_time`,`company_name`,`company_address`,
+`client_name`,`client_truename`,`phone`,`product_type_id`,`product_id`,`client_type`) VALUES 
 ($datas)";
-
         return $this->execute($sql);
     }
 
@@ -35,7 +35,6 @@ class PerformanceModel extends Model
 LEFT JOIN `qp_employee` as e on p.employee_id = e.id LEFT JOIN 
 `qp_department` as d on p.department_id = d.id LEFT JOIN `qp_product_type` as t on p.product_type_id = t.id 
 LEFT JOIN `qp_product` as pc on p.product_id = pc.id where 1 $where order by p.id desc";
-        //echo $sql;exit;
         return $this->query($sql);
     }
 
